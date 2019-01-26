@@ -9,9 +9,9 @@ def letterDigitCounter(sen):
     char_count = 0
     for i in sen:
         if i.isalpha():
-            num_count = num_count + 1
-        elif i.isdigit():
             char_count = char_count + 1
+        elif i.isdigit():
+            num_count = num_count + 1
     return num_count,char_count
 
 # taking input sentence

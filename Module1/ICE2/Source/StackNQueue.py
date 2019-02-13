@@ -25,10 +25,11 @@ in_queue = deque(in_list)
 y = 'y'
 while y == 'y'or y == 'Y':
     choice = int(input(" 1 for adding element, 2 for removing element : ---> "))
-    if choice == 1:
+    if choice == 1: #insert element
         num = int(input("Enter number : ---> "))
         add_element(num,in_stack,in_queue)
-    elif choice == 2:
+    elif choice == 2: # remove element
         rem_element(in_stack, in_queue)
     y = input(" Do you want to continue y/n ?  ---> ")
+    # terminate while if choice is n -> No
 

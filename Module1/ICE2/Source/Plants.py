@@ -11,6 +11,6 @@ def avg_ht(no_of_plants, ht_of_plants):
 
 print("Input : ")
 no_of_plants = int(input("Enter no. of plants : "))
-ht_of_plants = [float(x) for x in input().split()]
+ht_of_plants = [float(x) for x in input().split()] # List of plants height as input
 print(ht_of_plants)
-avg_ht(no_of_plants,ht_of_plants)
+avg_ht(no_of_plants,ht_of_plants) # method to calculate avg height

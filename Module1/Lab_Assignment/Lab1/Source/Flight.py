@@ -22,7 +22,6 @@ class Person(object):
         self.Sex = Sex
         Person.person_count += 1
 
-
     def printPerseonDetails(self):
         return str((self.Name, self.Sex,self.Age))
 

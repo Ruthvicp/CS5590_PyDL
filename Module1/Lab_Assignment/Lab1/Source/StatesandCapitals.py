@@ -13,9 +13,12 @@ def collect_href():
 
     table = soup_text.find("table",{"class":"wikitable sortable plainrowheaders"})
 
-    for rows in table.findAll('td'):
-        print(rows.text)
+    op_file = open('output.txt', 'w')
 
+    for rows in table.findAll('td'):
+        op_file.write(rows.text)
+        #print(rows.text)
+    op_file.close()
 
 
 if __name__ == '__main__':

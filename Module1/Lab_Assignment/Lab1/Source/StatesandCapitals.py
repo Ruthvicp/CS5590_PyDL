@@ -8,8 +8,8 @@ def collect_href():
     source_text = source_code.text
     soup_text = BeautifulSoup(source_text, 'html.parser')
     #print(soup_text)
-    for link in soup_text.findAll('a'):
-        href = link.get('href')
+    # for link in soup_text.findAll('a'):
+    #     href = link.get('href')
 
     table = soup_text.find("table",{"class":"wikitable sortable plainrowheaders"})
 

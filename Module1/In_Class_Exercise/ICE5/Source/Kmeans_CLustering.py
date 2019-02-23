@@ -29,7 +29,6 @@ dataset = dataset.drop(['Unnamed: 0'], axis=1)
 dataset = dataset.drop(['Private'], axis=1)
 # add an additional column with the calculated rating
 dataset['Rating'] = dataset.apply(assignRating,axis=1)
-
 # take columns 2 to 13
 x = dataset.iloc[:, 2:13]
 # take only last column
@@ -53,7 +52,6 @@ n = n["Grad.Rate"]
 sns.FacetGrid(dataset, hue="Grad.Rate", size=4).map(plt.scatter, "Enroll", "S.F.Ratio")
 sns.FacetGrid(dataset, hue="Rating", size=4).map(plt.scatter, "Enroll", "Grad.Rate").add_legend()
 plt.show()
-
 # transform the data here
 scaler = preprocessing.StandardScaler()
 scaler.fit(x)

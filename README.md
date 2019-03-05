@@ -12,4 +12,4 @@
 
 ### Lab Assignments (By Ruthvicp, charankottapalliCK)
 
-* [Lab1](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab1)
+* [Lab1 - Sets, Tuples, Web Scraping, Strings](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab1)

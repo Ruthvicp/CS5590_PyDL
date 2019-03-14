@@ -1,90 +1,50 @@
-from sklearn.cluster import KMeans
+# K-Means Clustering
+
+# Importing the libraries
 import numpy as np
-import pandas as pd
-from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set(style="white", color_codes=True)
-import warnings
-warnings.filterwarnings("ignore")
+import pandas as pd
 
-dataset = pd.read_csv('Iris.csv')
-x = dataset.iloc[:,[1,2,3,4]]
-y = dataset.iloc[:-1]
-# see how many samples we have of each species
-print(dataset["Species"].value_counts())
+# Importing the dataset
+dataset = pd.read_csv('cars.csv')
 
-sns.FacetGrid(dataset, hue="Species", size=4) \
-   .map(plt.scatter, "SepalLengthCm", "SepalWidthCm") \
-   .add_legend()
-# do same for petals
-sns.FacetGrid(dataset, hue="Species", size=4) \
-   .map(plt.scatter, "PetalLengthCm", "PetalWidthCm") \
-   .add_legend()
-plt.show()
-# note that the species are nearly linearly separable with petal size,but sepal sizes are more mixed.
+X = dataset.iloc[:, :-1].values
 
-# but a clustering algorithm might have a hard time realizing that there were
-# three separate species, which we happen to know in advance -
-# usually if you're doing exploratory data analysis (EDA), you don't know this,
-# e.g. if you were looking for different groups of customers.
+X = pd.DataFrame(X)
+X = X.convert_objects(convert_numeric=True)
+X.columns = ['mpg', ' cylinders', ' cubicinches', ' hp', ' weightlbs', ' time-to-60', 'year']
 
-# it might not matter too much though - e.g. the versicolor and virginica species
-# seem to be very similar, so it might be just as well for your
-# purposes to lump them together
+# Eliminating null values
+for i in X.columns:
+    X[i] = X[i].fillna(int(X[i].mean()))
+for i in X.columns:
+    print(X[i].isnull().sum())
 
-# note that the species are nearly linearly separable with petal size,
-# but sepal sizes are more mixed
-#the data is unbalanced (eg sepallength ~4x petalwidth), so should do feature scaling,
-# otherwise the larger features will dominate the others in clustering, etc
-
-from sklearn import preprocessing
-
-scaler = preprocessing.StandardScaler()
-
-scaler.fit(x)
-X_scaled_array = scaler.transform(x)
-X_scaled = pd.DataFrame(X_scaled_array, columns = x.columns)
-
-X_scaled.sample(5)
-
+# Using the elbow method to find  the optimal number of clusters
 from sklearn.cluster import KMeans
-
-nclusters = 3 # this is the k in kmeans
-seed = 0
-
-km = KMeans(n_clusters=nclusters, random_state=seed)
-km.fit(X_scaled)
-
-# predict the cluster for each data point
-y_cluster_kmeans = km.predict(X_scaled)
-
-from sklearn import metrics
-score = metrics.silhouette_score(X_scaled, y_cluster_kmeans)
-
-# note that this is the mean over all the samples - there might be some clusters
-# that are well separated and others that are closer together.
-
-# so let's look at the distribution of silhouette scores...
-
-# scores = metrics.silhouette_samples(X_scaled, y_cluster_kmeans)
-# sns.distplot(scores)
-# # can we add the species info to that plot?
-# # well, can plot them separately using pandas -
-# df_scores = pd.DataFrame()
-# df_scores['SilhouetteScore'] = scores
-# df_scores['Species'] = dataset['Species']
-# df_scores.hist(by='Species', column='SilhouetteScore', range=(0,1.0), bins=20);
 
 wcss = []
-##elbow method to know the number of clusters
-for i in range(1,11):
-    kmeans = KMeans(n_clusters=i,init='k-means++',max_iter=300,n_init=10,random_state=0)
-    kmeans.fit(x)
+for i in range(1, 11):
+    kmeans = KMeans(n_clusters=i, init='k-means++', max_iter=300, n_init=10, random_state=0)
+    kmeans.fit(X)
     wcss.append(kmeans.inertia_)
+plt.plot(range(1, 11), wcss)
+plt.title('The Elbow Method')
+plt.xlabel('Number of clusters')
+plt.ylabel('WCSS')
+plt.show()
 
-plt.plot(range(1,11),wcss)
-plt.title('the elbow method')
-plt.xlabel('Number of Clusters')
-plt.ylabel('Wcss')
+# Applying k-means to the cars dataset
+kmeans = KMeans(n_clusters=3, init='k-means++', max_iter=300, n_init=10, random_state=0)
+y_kmeans = kmeans.fit_predict(X)
+
+X = X.as_matrix(columns=None)
+
+# Visualising the clusters
+plt.scatter(X[y_kmeans == 0, 0], X[y_kmeans == 0, 1], s=100, c='red', label='US')
+plt.scatter(X[y_kmeans == 1, 0], X[y_kmeans == 1, 1], s=100, c='blue', label='Japan')
+plt.scatter(X[y_kmeans == 2, 0], X[y_kmeans == 2, 1], s=100, c='green', label='Europe')
+plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s=300, c='yellow', label='Centroids')
+plt.title('Clusters of car brands')
+plt.legend()
 plt.show()

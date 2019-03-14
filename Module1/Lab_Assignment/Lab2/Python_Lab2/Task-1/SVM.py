@@ -1,5 +1,5 @@
 #import packages for support vector , accuracy, split train data and datasets
-import inline as inline
+#import inline as inline
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split

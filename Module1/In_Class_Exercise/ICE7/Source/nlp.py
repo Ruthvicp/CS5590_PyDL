@@ -1,5 +1,5 @@
 import nltk
-#nltk.download()
+nltk.download()
 from bs4 import BeautifulSoup
 import requests
 from nltk.stem import WordNetLemmatizer

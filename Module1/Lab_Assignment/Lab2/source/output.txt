@@ -1,0 +1,6974 @@
+Stentense token : 
+Regression analysis is a statistical technique that models and approximates the relationship between a dependent and one or more independent variables.
+TRIGRAM: 
+('Regression', 'analysis', 'is')('analysis', 'is', 'a')('is', 'a', 'statistical')('a', 'statistical', 'technique')('statistical', 'technique', 'that')('technique', 'that', 'models')('that', 'models', 'and')('models', 'and', 'approximates')('and', 'approximates', 'the')('approximates', 'the', 'relationship')('the', 'relationship', 'between')('relationship', 'between', 'a')('between', 'a', 'dependent')('a', 'dependent', 'and')('dependent', 'and', 'one')('and', 'one', 'or')('one', 'or', 'more')('or', 'more', 'independent')('more', 'independent', 'variables.')
+Name Entity: 
+(S
+  (GPE Regression/NN)
+  analysis/NN
+  is/VBZ
+  a/DT
+  statistical/JJ
+  technique/NN
+  that/WDT
+  models/NNS
+  and/CC
+  approximates/VBZ
+  the/DT
+  relationship/NN
+  between/IN
+  a/DT
+  dependent/NN
+  and/CC
+  one/CD
+  or/CC
+  more/JJR
+  independent/JJ
+  variables/NNS
+  ./.)Stentense token : 
+This article will quickly introduce three commonly used regression models using R and the Boston housing data-set: Ridge, Lasso, and Elastic Net.
+TRIGRAM: 
+('This', 'article', 'will')('article', 'will', 'quickly')('will', 'quickly', 'introduce')('quickly', 'introduce', 'three')('introduce', 'three', 'commonly')('three', 'commonly', 'used')('commonly', 'used', 'regression')('used', 'regression', 'models')('regression', 'models', 'using')('models', 'using', 'R')('using', 'R', 'and')('R', 'and', 'the')('and', 'the', 'Boston')('the', 'Boston', 'housing')('Boston', 'housing', 'data-set:')('housing', 'data-set:', 'Ridge,')('data-set:', 'Ridge,', 'Lasso,')('Ridge,', 'Lasso,', 'and')('Lasso,', 'and', 'Elastic')('and', 'Elastic', 'Net.')
+Name Entity: 
+(S
+  This/DT
+  article/NN
+  will/MD
+  quickly/RB
+  introduce/VB
+  three/CD
+  commonly/RB
+  used/VBN
+  regression/NN
+  models/NNS
+  using/VBG
+  R/NNP
+  and/CC
+  the/DT
+  (GPE Boston/NNP)
+  housing/NN
+  data/NNS
+  -/:
+  set/NN
+  :/:
+  Ridge/NNP
+  ,/,
+  (PERSON Lasso/NNP)
+  ,/,
+  and/CC
+  (ORGANIZATION Elastic/JJ Net/NN)
+  ./.)
+Word token: 
+Regression
+Stemming: 
+regress
+Word token: 
+analysis
+Stemming: 
+analysi
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+statistical
+Stemming: 
+statist
+Word token: 
+technique
+Stemming: 
+techniqu
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+models
+Stemming: 
+model
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+approximates
+Stemming: 
+approxim
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+relationship
+Stemming: 
+relationship
+Word token: 
+between
+Stemming: 
+between
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+dependent
+Stemming: 
+depend
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+one
+Stemming: 
+one
+Word token: 
+or
+Stemming: 
+or
+Word token: 
+more
+Stemming: 
+more
+Word token: 
+independent
+Stemming: 
+independ
+Word token: 
+variables
+Stemming: 
+variabl
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+This
+Stemming: 
+thi
+Word token: 
+article
+Stemming: 
+articl
+Word token: 
+will
+Stemming: 
+will
+Word token: 
+quickly
+Stemming: 
+quickli
+Word token: 
+introduce
+Stemming: 
+introduc
+Word token: 
+three
+Stemming: 
+three
+Word token: 
+commonly
+Stemming: 
+commonli
+Word token: 
+used
+Stemming: 
+use
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+models
+Stemming: 
+model
+Word token: 
+using
+Stemming: 
+use
+Word token: 
+R
+Stemming: 
+R
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+Boston
+Stemming: 
+boston
+Word token: 
+housing
+Stemming: 
+hous
+Word token: 
+data-set
+Stemming: 
+data-set
+Word token: 
+:
+Stemming: 
+:
+Word token: 
+Ridge
+Stemming: 
+ridg
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+Elastic
+Stemming: 
+elast
+Word token: 
+Net
+Stemming: 
+net
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+Regression
+Lemmatization: 
+analysis
+Lemmatization: 
+is
+Lemmatization: 
+a
+Lemmatization: 
+statistical
+Lemmatization: 
+technique
+Lemmatization: 
+that
+Lemmatization: 
+model
+Lemmatization: 
+and
+Lemmatization: 
+approximates
+Lemmatization: 
+the
+Lemmatization: 
+relationship
+Lemmatization: 
+between
+Lemmatization: 
+a
+Lemmatization: 
+dependent
+Lemmatization: 
+and
+Lemmatization: 
+one
+Lemmatization: 
+or
+Lemmatization: 
+more
+Lemmatization: 
+independent
+Lemmatization: 
+variable
+Lemmatization: 
+.
+Lemmatization: 
+This
+Lemmatization: 
+article
+Lemmatization: 
+will
+Lemmatization: 
+quickly
+Lemmatization: 
+introduce
+Lemmatization: 
+three
+Lemmatization: 
+commonly
+Lemmatization: 
+used
+Lemmatization: 
+regression
+Lemmatization: 
+model
+Lemmatization: 
+using
+Lemmatization: 
+R
+Lemmatization: 
+and
+Lemmatization: 
+the
+Lemmatization: 
+Boston
+Lemmatization: 
+housing
+Lemmatization: 
+data-set
+Lemmatization: 
+:
+Lemmatization: 
+Ridge
+Lemmatization: 
+,
+Lemmatization: 
+Lasso
+Lemmatization: 
+,
+Lemmatization: 
+and
+Lemmatization: 
+Elastic
+Lemmatization: 
+Net
+Lemmatization: 
+.
+Parts of speech: 
+[('Regression analysis is a statistical technique that models and approximates the relationship between a dependent and one or more independent variables.', 'NNP'), ('This article will quickly introduce three commonly used regression models using R and the Boston housing data-set: Ridge, Lasso, and Elastic Net.', 'NNP')]Stentense token : 
+First we need to understand the basics of regression and what parameters of the equation are changed when using a specific model.
+TRIGRAM: 
+('First', 'we', 'need')('we', 'need', 'to')('need', 'to', 'understand')('to', 'understand', 'the')('understand', 'the', 'basics')('the', 'basics', 'of')('basics', 'of', 'regression')('of', 'regression', 'and')('regression', 'and', 'what')('and', 'what', 'parameters')('what', 'parameters', 'of')('parameters', 'of', 'the')('of', 'the', 'equation')('the', 'equation', 'are')('equation', 'are', 'changed')('are', 'changed', 'when')('changed', 'when', 'using')('when', 'using', 'a')('using', 'a', 'specific')('a', 'specific', 'model.')
+Name Entity: 
+(S
+  First/RB
+  we/PRP
+  need/VBP
+  to/TO
+  understand/VB
+  the/DT
+  basics/NNS
+  of/IN
+  regression/NN
+  and/CC
+  what/WP
+  parameters/NNS
+  of/IN
+  the/DT
+  equation/NN
+  are/VBP
+  changed/VBN
+  when/WRB
+  using/VBG
+  a/DT
+  specific/JJ
+  model/NN
+  ./.)Stentense token : 
+Simple linear regression, also known as ordinary least squares (OLS) attempts to minimize the sum of error squared.
+TRIGRAM: 
+('Simple', 'linear', 'regression,')('linear', 'regression,', 'also')('regression,', 'also', 'known')('also', 'known', 'as')('known', 'as', 'ordinary')('as', 'ordinary', 'least')('ordinary', 'least', 'squares')('least', 'squares', '(OLS)')('squares', '(OLS)', 'attempts')('(OLS)', 'attempts', 'to')('attempts', 'to', 'minimize')('to', 'minimize', 'the')('minimize', 'the', 'sum')('the', 'sum', 'of')('sum', 'of', 'error')('of', 'error', 'squared.')
+Name Entity: 
+(S
+  (GPE Simple/JJ)
+  linear/JJ
+  regression/NN
+  ,/,
+  also/RB
+  known/VBN
+  as/IN
+  ordinary/JJ
+  least/NN
+  squares/NNS
+  (/(
+  (ORGANIZATION OLS/NNP)
+  )/)
+  attempts/VBZ
+  to/TO
+  minimize/VB
+  the/DT
+  sum/NN
+  of/IN
+  error/NN
+  squared/VBN
+  ./.)Stentense token : 
+The error in this case is the difference between the actual data point and its predicted value.
+TRIGRAM: 
+('The', 'error', 'in')('error', 'in', 'this')('in', 'this', 'case')('this', 'case', 'is')('case', 'is', 'the')('is', 'the', 'difference')('the', 'difference', 'between')('difference', 'between', 'the')('between', 'the', 'actual')('the', 'actual', 'data')('actual', 'data', 'point')('data', 'point', 'and')('point', 'and', 'its')('and', 'its', 'predicted')('its', 'predicted', 'value.')
+Name Entity: 
+(S
+  The/DT
+  error/NN
+  in/IN
+  this/DT
+  case/NN
+  is/VBZ
+  the/DT
+  difference/NN
+  between/IN
+  the/DT
+  actual/JJ
+  data/NNS
+  point/NN
+  and/CC
+  its/PRP$
+  predicted/JJ
+  value/NN
+  ./.)
+Word token: 
+First
+Stemming: 
+first
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+need
+Stemming: 
+need
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+understand
+Stemming: 
+understand
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+basics
+Stemming: 
+basic
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+what
+Stemming: 
+what
+Word token: 
+parameters
+Stemming: 
+paramet
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+changed
+Stemming: 
+chang
+Word token: 
+when
+Stemming: 
+when
+Word token: 
+using
+Stemming: 
+use
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+specific
+Stemming: 
+specif
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Simple
+Stemming: 
+simpl
+Word token: 
+linear
+Stemming: 
+linear
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+also
+Stemming: 
+also
+Word token: 
+known
+Stemming: 
+known
+Word token: 
+as
+Stemming: 
+as
+Word token: 
+ordinary
+Stemming: 
+ordinari
+Word token: 
+least
+Stemming: 
+least
+Word token: 
+squares
+Stemming: 
+squar
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+attempts
+Stemming: 
+attempt
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+minimize
+Stemming: 
+minim
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+sum
+Stemming: 
+sum
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+squared
+Stemming: 
+squar
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+in
+Stemming: 
+in
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+case
+Stemming: 
+case
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+difference
+Stemming: 
+differ
+Word token: 
+between
+Stemming: 
+between
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+actual
+Stemming: 
+actual
+Word token: 
+data
+Stemming: 
+data
+Word token: 
+point
+Stemming: 
+point
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+its
+Stemming: 
+it
+Word token: 
+predicted
+Stemming: 
+predict
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+First
+Lemmatization: 
+we
+Lemmatization: 
+need
+Lemmatization: 
+to
+Lemmatization: 
+understand
+Lemmatization: 
+the
+Lemmatization: 
+basic
+Lemmatization: 
+of
+Lemmatization: 
+regression
+Lemmatization: 
+and
+Lemmatization: 
+what
+Lemmatization: 
+parameter
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+equation
+Lemmatization: 
+are
+Lemmatization: 
+changed
+Lemmatization: 
+when
+Lemmatization: 
+using
+Lemmatization: 
+a
+Lemmatization: 
+specific
+Lemmatization: 
+model
+Lemmatization: 
+.
+Lemmatization: 
+Simple
+Lemmatization: 
+linear
+Lemmatization: 
+regression
+Lemmatization: 
+,
+Lemmatization: 
+also
+Lemmatization: 
+known
+Lemmatization: 
+a
+Lemmatization: 
+ordinary
+Lemmatization: 
+least
+Lemmatization: 
+square
+Lemmatization: 
+(
+Lemmatization: 
+OLS
+Lemmatization: 
+)
+Lemmatization: 
+attempt
+Lemmatization: 
+to
+Lemmatization: 
+minimize
+Lemmatization: 
+the
+Lemmatization: 
+sum
+Lemmatization: 
+of
+Lemmatization: 
+error
+Lemmatization: 
+squared
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+error
+Lemmatization: 
+in
+Lemmatization: 
+this
+Lemmatization: 
+case
+Lemmatization: 
+is
+Lemmatization: 
+the
+Lemmatization: 
+difference
+Lemmatization: 
+between
+Lemmatization: 
+the
+Lemmatization: 
+actual
+Lemmatization: 
+data
+Lemmatization: 
+point
+Lemmatization: 
+and
+Lemmatization: 
+it
+Lemmatization: 
+predicted
+Lemmatization: 
+value
+Lemmatization: 
+.
+Parts of speech: 
+[('First we need to understand the basics of regression and what parameters of the equation are changed when using a specific model.', 'NNP'), ('Simple linear regression, also known as ordinary least squares (OLS) attempts to minimize the sum of error squared.', 'NNP'), ('The error in this case is the difference between the actual data point and its predicted value.', 'NNP')]Stentense token : 
+Visualization of the squared error (from Setosa.io)
+TRIGRAM: 
+('Visualization', 'of', 'the')('of', 'the', 'squared')('the', 'squared', 'error')('squared', 'error', '(from')('error', '(from', 'Setosa.io)')
+Name Entity: 
+(S
+  Visualization/NN
+  of/IN
+  the/DT
+  squared/JJ
+  error/NN
+  (/(
+  from/IN
+  (GPE Setosa/NNP)
+  ./.
+  io/NN
+  )/))
+Word token: 
+Visualization
+Stemming: 
+visual
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+squared
+Stemming: 
+squar
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+from
+Stemming: 
+from
+Word token: 
+Setosa.io
+Stemming: 
+setosa.io
+Word token: 
+)
+Stemming: 
+)
+Lemmatization: 
+Visualization
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+squared
+Lemmatization: 
+error
+Lemmatization: 
+(
+Lemmatization: 
+from
+Lemmatization: 
+Setosa.io
+Lemmatization: 
+)
+Parts of speech: 
+[('Visualization of the squared error (from Setosa.io)', 'NN')]Stentense token : 
+The equation for this model is referred to as the cost function and is a way to find the optimal error by minimizing and measuring it.
+TRIGRAM: 
+('The', 'equation', 'for')('equation', 'for', 'this')('for', 'this', 'model')('this', 'model', 'is')('model', 'is', 'referred')('is', 'referred', 'to')('referred', 'to', 'as')('to', 'as', 'the')('as', 'the', 'cost')('the', 'cost', 'function')('cost', 'function', 'and')('function', 'and', 'is')('and', 'is', 'a')('is', 'a', 'way')('a', 'way', 'to')('way', 'to', 'find')('to', 'find', 'the')('find', 'the', 'optimal')('the', 'optimal', 'error')('optimal', 'error', 'by')('error', 'by', 'minimizing')('by', 'minimizing', 'and')('minimizing', 'and', 'measuring')('and', 'measuring', 'it.')
+Name Entity: 
+(S
+  The/DT
+  equation/NN
+  for/IN
+  this/DT
+  model/NN
+  is/VBZ
+  referred/VBN
+  to/TO
+  as/IN
+  the/DT
+  cost/NN
+  function/NN
+  and/CC
+  is/VBZ
+  a/DT
+  way/NN
+  to/TO
+  find/VB
+  the/DT
+  optimal/JJ
+  error/NN
+  by/IN
+  minimizing/VBG
+  and/CC
+  measuring/VBG
+  it/PRP
+  ./.)Stentense token : 
+The gradient descent algorithm is used to find the optimal cost function by going over a number of iterations.
+TRIGRAM: 
+('The', 'gradient', 'descent')('gradient', 'descent', 'algorithm')('descent', 'algorithm', 'is')('algorithm', 'is', 'used')('is', 'used', 'to')('used', 'to', 'find')('to', 'find', 'the')('find', 'the', 'optimal')('the', 'optimal', 'cost')('optimal', 'cost', 'function')('cost', 'function', 'by')('function', 'by', 'going')('by', 'going', 'over')('going', 'over', 'a')('over', 'a', 'number')('a', 'number', 'of')('number', 'of', 'iterations.')
+Name Entity: 
+(S
+  The/DT
+  gradient/JJ
+  descent/NN
+  algorithm/NN
+  is/VBZ
+  used/VBN
+  to/TO
+  find/VB
+  the/DT
+  optimal/JJ
+  cost/NN
+  function/NN
+  by/IN
+  going/VBG
+  over/IN
+  a/DT
+  number/NN
+  of/IN
+  iterations/NNS
+  ./.)Stentense token : 
+But the data we need to define and analyze is not always so easy to characterize with the base OLS model.
+TRIGRAM: 
+('But', 'the', 'data')('the', 'data', 'we')('data', 'we', 'need')('we', 'need', 'to')('need', 'to', 'define')('to', 'define', 'and')('define', 'and', 'analyze')('and', 'analyze', 'is')('analyze', 'is', 'not')('is', 'not', 'always')('not', 'always', 'so')('always', 'so', 'easy')('so', 'easy', 'to')('easy', 'to', 'characterize')('to', 'characterize', 'with')('characterize', 'with', 'the')('with', 'the', 'base')('the', 'base', 'OLS')('base', 'OLS', 'model.')
+Name Entity: 
+(S
+  But/CC
+  the/DT
+  data/NN
+  we/PRP
+  need/VBP
+  to/TO
+  define/VB
+  and/CC
+  analyze/VB
+  is/VBZ
+  not/RB
+  always/RB
+  so/RB
+  easy/JJ
+  to/TO
+  characterize/VB
+  with/IN
+  the/DT
+  base/NN
+  (ORGANIZATION OLS/NNP)
+  model/NN
+  ./.)
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+referred
+Stemming: 
+refer
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+as
+Stemming: 
+as
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+cost
+Stemming: 
+cost
+Word token: 
+function
+Stemming: 
+function
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+way
+Stemming: 
+way
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+find
+Stemming: 
+find
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+optimal
+Stemming: 
+optim
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+by
+Stemming: 
+by
+Word token: 
+minimizing
+Stemming: 
+minim
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+measuring
+Stemming: 
+measur
+Word token: 
+it
+Stemming: 
+it
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+gradient
+Stemming: 
+gradient
+Word token: 
+descent
+Stemming: 
+descent
+Word token: 
+algorithm
+Stemming: 
+algorithm
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+used
+Stemming: 
+use
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+find
+Stemming: 
+find
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+optimal
+Stemming: 
+optim
+Word token: 
+cost
+Stemming: 
+cost
+Word token: 
+function
+Stemming: 
+function
+Word token: 
+by
+Stemming: 
+by
+Word token: 
+going
+Stemming: 
+go
+Word token: 
+over
+Stemming: 
+over
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+number
+Stemming: 
+number
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+iterations
+Stemming: 
+iter
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+But
+Stemming: 
+but
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+data
+Stemming: 
+data
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+need
+Stemming: 
+need
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+define
+Stemming: 
+defin
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+analyze
+Stemming: 
+analyz
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+not
+Stemming: 
+not
+Word token: 
+always
+Stemming: 
+alway
+Word token: 
+so
+Stemming: 
+so
+Word token: 
+easy
+Stemming: 
+easi
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+characterize
+Stemming: 
+character
+Word token: 
+with
+Stemming: 
+with
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+base
+Stemming: 
+base
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+equation
+Lemmatization: 
+for
+Lemmatization: 
+this
+Lemmatization: 
+model
+Lemmatization: 
+is
+Lemmatization: 
+referred
+Lemmatization: 
+to
+Lemmatization: 
+a
+Lemmatization: 
+the
+Lemmatization: 
+cost
+Lemmatization: 
+function
+Lemmatization: 
+and
+Lemmatization: 
+is
+Lemmatization: 
+a
+Lemmatization: 
+way
+Lemmatization: 
+to
+Lemmatization: 
+find
+Lemmatization: 
+the
+Lemmatization: 
+optimal
+Lemmatization: 
+error
+Lemmatization: 
+by
+Lemmatization: 
+minimizing
+Lemmatization: 
+and
+Lemmatization: 
+measuring
+Lemmatization: 
+it
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+gradient
+Lemmatization: 
+descent
+Lemmatization: 
+algorithm
+Lemmatization: 
+is
+Lemmatization: 
+used
+Lemmatization: 
+to
+Lemmatization: 
+find
+Lemmatization: 
+the
+Lemmatization: 
+optimal
+Lemmatization: 
+cost
+Lemmatization: 
+function
+Lemmatization: 
+by
+Lemmatization: 
+going
+Lemmatization: 
+over
+Lemmatization: 
+a
+Lemmatization: 
+number
+Lemmatization: 
+of
+Lemmatization: 
+iteration
+Lemmatization: 
+.
+Lemmatization: 
+But
+Lemmatization: 
+the
+Lemmatization: 
+data
+Lemmatization: 
+we
+Lemmatization: 
+need
+Lemmatization: 
+to
+Lemmatization: 
+define
+Lemmatization: 
+and
+Lemmatization: 
+analyze
+Lemmatization: 
+is
+Lemmatization: 
+not
+Lemmatization: 
+always
+Lemmatization: 
+so
+Lemmatization: 
+easy
+Lemmatization: 
+to
+Lemmatization: 
+characterize
+Lemmatization: 
+with
+Lemmatization: 
+the
+Lemmatization: 
+base
+Lemmatization: 
+OLS
+Lemmatization: 
+model
+Lemmatization: 
+.
+Parts of speech: 
+[('The equation for this model is referred to as the cost function and is a way to find the optimal error by minimizing and measuring it.', 'NNP'), ('The gradient descent algorithm is used to find the optimal cost function by going over a number of iterations.', 'NNP'), ('But the data we need to define and analyze is not always so easy to characterize with the base OLS model.', 'NNP')]Stentense token : 
+Equation for least ordinary squares
+TRIGRAM: 
+('Equation', 'for', 'least')('for', 'least', 'ordinary')('least', 'ordinary', 'squares')
+Name Entity: 
+(S (GPE Equation/NN) for/IN least/JJS ordinary/JJ squares/NNS)
+Word token: 
+Equation
+Stemming: 
+equat
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+least
+Stemming: 
+least
+Word token: 
+ordinary
+Stemming: 
+ordinari
+Word token: 
+squares
+Stemming: 
+squar
+Lemmatization: 
+Equation
+Lemmatization: 
+for
+Lemmatization: 
+least
+Lemmatization: 
+ordinary
+Lemmatization: 
+square
+Parts of speech: 
+[('Equation for least ordinary squares', 'NNS')]Stentense token : 
+One situation is the data showing multi-collinearity, this is when predictor variables are correlated to each other and to the response variable.
+TRIGRAM: 
+('One', 'situation', 'is')('situation', 'is', 'the')('is', 'the', 'data')('the', 'data', 'showing')('data', 'showing', 'multi-collinearity,')('showing', 'multi-collinearity,', 'this')('multi-collinearity,', 'this', 'is')('this', 'is', 'when')('is', 'when', 'predictor')('when', 'predictor', 'variables')('predictor', 'variables', 'are')('variables', 'are', 'correlated')('are', 'correlated', 'to')('correlated', 'to', 'each')('to', 'each', 'other')('each', 'other', 'and')('other', 'and', 'to')('and', 'to', 'the')('to', 'the', 'response')('the', 'response', 'variable.')
+Name Entity: 
+(S
+  One/CD
+  situation/NN
+  is/VBZ
+  the/DT
+  data/NNS
+  showing/VBG
+  multi/JJ
+  -/:
+  collinearity/NN
+  ,/,
+  this/DT
+  is/VBZ
+  when/WRB
+  predictor/NN
+  variables/NNS
+  are/VBP
+  correlated/VBN
+  to/TO
+  each/DT
+  other/JJ
+  and/CC
+  to/TO
+  the/DT
+  response/NN
+  variable/NN
+  ./.)Stentense token : 
+To picture this let’s say we’re doing a study that looks at a response variable?—?patient weight, and our predictor variables would be height, sex, and diet.
+TRIGRAM: 
+('To', 'picture', 'this')('picture', 'this', 'let’s')('this', 'let’s', 'say')('let’s', 'say', 'we’re')('say', 'we’re', 'doing')('we’re', 'doing', 'a')('doing', 'a', 'study')('a', 'study', 'that')('study', 'that', 'looks')('that', 'looks', 'at')('looks', 'at', 'a')('at', 'a', 'response')('a', 'response', 'variable?—?patient')('response', 'variable?—?patient', 'weight,')('variable?—?patient', 'weight,', 'and')('weight,', 'and', 'our')('and', 'our', 'predictor')('our', 'predictor', 'variables')('predictor', 'variables', 'would')('variables', 'would', 'be')('would', 'be', 'height,')('be', 'height,', 'sex,')('height,', 'sex,', 'and')('sex,', 'and', 'diet.')
+Name Entity: 
+(S
+  To/TO
+  picture/VB
+  this/DT
+  let/NN
+  ’/VB
+  s/NNS
+  say/VBP
+  we/PRP
+  ’/VBP
+  re/JJ
+  doing/VBG
+  a/DT
+  study/NN
+  that/WDT
+  looks/VBZ
+  at/IN
+  a/DT
+  response/NN
+  variable/JJ
+  ?—?/JJ
+  patient/NN
+  weight/NN
+  ,/,
+  and/CC
+  our/PRP$
+  predictor/NN
+  variables/NNS
+  would/MD
+  be/VB
+  height/VBN
+  ,/,
+  sex/NN
+  ,/,
+  and/CC
+  diet/NN
+  ./.)Stentense token : 
+The problem here is that height and sex are also correlated and can inflate the standard error of their coefficients which may make them seem statistically insignificant.
+TRIGRAM: 
+('The', 'problem', 'here')('problem', 'here', 'is')('here', 'is', 'that')('is', 'that', 'height')('that', 'height', 'and')('height', 'and', 'sex')('and', 'sex', 'are')('sex', 'are', 'also')('are', 'also', 'correlated')('also', 'correlated', 'and')('correlated', 'and', 'can')('and', 'can', 'inflate')('can', 'inflate', 'the')('inflate', 'the', 'standard')('the', 'standard', 'error')('standard', 'error', 'of')('error', 'of', 'their')('of', 'their', 'coefficients')('their', 'coefficients', 'which')('coefficients', 'which', 'may')('which', 'may', 'make')('may', 'make', 'them')('make', 'them', 'seem')('them', 'seem', 'statistically')('seem', 'statistically', 'insignificant.')
+Name Entity: 
+(S
+  The/DT
+  problem/NN
+  here/RB
+  is/VBZ
+  that/IN
+  height/NN
+  and/CC
+  sex/NN
+  are/VBP
+  also/RB
+  correlated/VBN
+  and/CC
+  can/MD
+  inflate/VB
+  the/DT
+  standard/JJ
+  error/NN
+  of/IN
+  their/PRP$
+  coefficients/NNS
+  which/WDT
+  may/MD
+  make/VB
+  them/PRP
+  seem/VB
+  statistically/RB
+  insignificant/JJ
+  ./.)
+Word token: 
+One
+Stemming: 
+one
+Word token: 
+situation
+Stemming: 
+situat
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+data
+Stemming: 
+data
+Word token: 
+showing
+Stemming: 
+show
+Word token: 
+multi-collinearity
+Stemming: 
+multi-collinear
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+when
+Stemming: 
+when
+Word token: 
+predictor
+Stemming: 
+predictor
+Word token: 
+variables
+Stemming: 
+variabl
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+correlated
+Stemming: 
+correl
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+each
+Stemming: 
+each
+Word token: 
+other
+Stemming: 
+other
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+response
+Stemming: 
+respons
+Word token: 
+variable
+Stemming: 
+variabl
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+To
+Stemming: 
+To
+Word token: 
+picture
+Stemming: 
+pictur
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+let
+Stemming: 
+let
+Word token: 
+’
+Stemming: 
+’
+Word token: 
+s
+Stemming: 
+s
+Word token: 
+say
+Stemming: 
+say
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+’
+Stemming: 
+’
+Word token: 
+re
+Stemming: 
+re
+Word token: 
+doing
+Stemming: 
+do
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+study
+Stemming: 
+studi
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+looks
+Stemming: 
+look
+Word token: 
+at
+Stemming: 
+at
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+response
+Stemming: 
+respons
+Word token: 
+variable
+Stemming: 
+variabl
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+—
+Stemming: 
+—
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+patient
+Stemming: 
+patient
+Word token: 
+weight
+Stemming: 
+weight
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+our
+Stemming: 
+our
+Word token: 
+predictor
+Stemming: 
+predictor
+Word token: 
+variables
+Stemming: 
+variabl
+Word token: 
+would
+Stemming: 
+would
+Word token: 
+be
+Stemming: 
+be
+Word token: 
+height
+Stemming: 
+height
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+sex
+Stemming: 
+sex
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+diet
+Stemming: 
+diet
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+problem
+Stemming: 
+problem
+Word token: 
+here
+Stemming: 
+here
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+height
+Stemming: 
+height
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+sex
+Stemming: 
+sex
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+also
+Stemming: 
+also
+Word token: 
+correlated
+Stemming: 
+correl
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+inflate
+Stemming: 
+inflat
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+standard
+Stemming: 
+standard
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+their
+Stemming: 
+their
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+which
+Stemming: 
+which
+Word token: 
+may
+Stemming: 
+may
+Word token: 
+make
+Stemming: 
+make
+Word token: 
+them
+Stemming: 
+them
+Word token: 
+seem
+Stemming: 
+seem
+Word token: 
+statistically
+Stemming: 
+statist
+Word token: 
+insignificant
+Stemming: 
+insignific
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+One
+Lemmatization: 
+situation
+Lemmatization: 
+is
+Lemmatization: 
+the
+Lemmatization: 
+data
+Lemmatization: 
+showing
+Lemmatization: 
+multi-collinearity
+Lemmatization: 
+,
+Lemmatization: 
+this
+Lemmatization: 
+is
+Lemmatization: 
+when
+Lemmatization: 
+predictor
+Lemmatization: 
+variable
+Lemmatization: 
+are
+Lemmatization: 
+correlated
+Lemmatization: 
+to
+Lemmatization: 
+each
+Lemmatization: 
+other
+Lemmatization: 
+and
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+response
+Lemmatization: 
+variable
+Lemmatization: 
+.
+Lemmatization: 
+To
+Lemmatization: 
+picture
+Lemmatization: 
+this
+Lemmatization: 
+let
+Lemmatization: 
+’
+Lemmatization: 
+s
+Lemmatization: 
+say
+Lemmatization: 
+we
+Lemmatization: 
+’
+Lemmatization: 
+re
+Lemmatization: 
+doing
+Lemmatization: 
+a
+Lemmatization: 
+study
+Lemmatization: 
+that
+Lemmatization: 
+look
+Lemmatization: 
+at
+Lemmatization: 
+a
+Lemmatization: 
+response
+Lemmatization: 
+variable
+Lemmatization: 
+?
+Lemmatization: 
+—
+Lemmatization: 
+?
+Lemmatization: 
+patient
+Lemmatization: 
+weight
+Lemmatization: 
+,
+Lemmatization: 
+and
+Lemmatization: 
+our
+Lemmatization: 
+predictor
+Lemmatization: 
+variable
+Lemmatization: 
+would
+Lemmatization: 
+be
+Lemmatization: 
+height
+Lemmatization: 
+,
+Lemmatization: 
+sex
+Lemmatization: 
+,
+Lemmatization: 
+and
+Lemmatization: 
+diet
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+problem
+Lemmatization: 
+here
+Lemmatization: 
+is
+Lemmatization: 
+that
+Lemmatization: 
+height
+Lemmatization: 
+and
+Lemmatization: 
+sex
+Lemmatization: 
+are
+Lemmatization: 
+also
+Lemmatization: 
+correlated
+Lemmatization: 
+and
+Lemmatization: 
+can
+Lemmatization: 
+inflate
+Lemmatization: 
+the
+Lemmatization: 
+standard
+Lemmatization: 
+error
+Lemmatization: 
+of
+Lemmatization: 
+their
+Lemmatization: 
+coefficient
+Lemmatization: 
+which
+Lemmatization: 
+may
+Lemmatization: 
+make
+Lemmatization: 
+them
+Lemmatization: 
+seem
+Lemmatization: 
+statistically
+Lemmatization: 
+insignificant
+Lemmatization: 
+.
+Parts of speech: 
+[('One situation is the data showing multi-collinearity, this is when predictor variables are correlated to each other and to the response variable.', 'JJ'), ('To picture this let’s say we’re doing a study that looks at a response variable?—?patient weight, and our predictor variables would be height, sex, and diet.', 'NNP'), ('The problem here is that height and sex are also correlated and can inflate the standard error of their coefficients which may make them seem statistically insignificant.', 'NNP')]Stentense token : 
+To produce a more accurate model of complex data we can add a penalty term to the OLS equation.
+TRIGRAM: 
+('To', 'produce', 'a')('produce', 'a', 'more')('a', 'more', 'accurate')('more', 'accurate', 'model')('accurate', 'model', 'of')('model', 'of', 'complex')('of', 'complex', 'data')('complex', 'data', 'we')('data', 'we', 'can')('we', 'can', 'add')('can', 'add', 'a')('add', 'a', 'penalty')('a', 'penalty', 'term')('penalty', 'term', 'to')('term', 'to', 'the')('to', 'the', 'OLS')('the', 'OLS', 'equation.')
+Name Entity: 
+(S
+  To/TO
+  produce/VB
+  a/DT
+  more/JJR
+  accurate/JJ
+  model/NN
+  of/IN
+  complex/JJ
+  data/NNS
+  we/PRP
+  can/MD
+  add/VB
+  a/DT
+  penalty/NN
+  term/NN
+  to/TO
+  the/DT
+  (ORGANIZATION OLS/NNP)
+  equation/NN
+  ./.)Stentense token : 
+A penalty adds a bias towards certain values.
+TRIGRAM: 
+('A', 'penalty', 'adds')('penalty', 'adds', 'a')('adds', 'a', 'bias')('a', 'bias', 'towards')('bias', 'towards', 'certain')('towards', 'certain', 'values.')
+Name Entity: 
+(S
+  A/DT
+  penalty/NN
+  adds/VBZ
+  a/DT
+  bias/NN
+  towards/NNS
+  certain/JJ
+  values/NNS
+  ./.)Stentense token : 
+These are known as L1 regularization(Lasso regression) and L2 regularization(ridge regression).The best model we can hope to come up with minimizes both the bias and the variance:
+TRIGRAM: 
+('These', 'are', 'known')('are', 'known', 'as')('known', 'as', 'L1')('as', 'L1', 'regularization(Lasso')('L1', 'regularization(Lasso', 'regression)')('regularization(Lasso', 'regression)', 'and')('regression)', 'and', 'L2')('and', 'L2', 'regularization(ridge')('L2', 'regularization(ridge', 'regression).The')('regularization(ridge', 'regression).The', 'best')('regression).The', 'best', 'model')('best', 'model', 'we')('model', 'we', 'can')('we', 'can', 'hope')('can', 'hope', 'to')('hope', 'to', 'come')('to', 'come', 'up')('come', 'up', 'with')('up', 'with', 'minimizes')('with', 'minimizes', 'both')('minimizes', 'both', 'the')('both', 'the', 'bias')('the', 'bias', 'and')('bias', 'and', 'the')('and', 'the', 'variance:')
+Name Entity: 
+(S
+  These/DT
+  are/VBP
+  known/VBN
+  as/IN
+  (GPE L1/NNP)
+  regularization/NN
+  (/(
+  Lasso/NNP
+  regression/NN
+  )/)
+  and/CC
+  L2/NNP
+  regularization/NN
+  (/(
+  ridge/JJ
+  regression/NN
+  )./VBD
+  The/DT
+  best/JJS
+  model/NN
+  we/PRP
+  can/MD
+  hope/VB
+  to/TO
+  come/VB
+  up/RP
+  with/IN
+  minimizes/NNS
+  both/CC
+  the/DT
+  bias/NN
+  and/CC
+  the/DT
+  variance/NN
+  :/:)
+Word token: 
+To
+Stemming: 
+To
+Word token: 
+produce
+Stemming: 
+produc
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+more
+Stemming: 
+more
+Word token: 
+accurate
+Stemming: 
+accur
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+complex
+Stemming: 
+complex
+Word token: 
+data
+Stemming: 
+data
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+add
+Stemming: 
+add
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+A
+Stemming: 
+A
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+adds
+Stemming: 
+add
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+bias
+Stemming: 
+bia
+Word token: 
+towards
+Stemming: 
+toward
+Word token: 
+certain
+Stemming: 
+certain
+Word token: 
+values
+Stemming: 
+valu
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+These
+Stemming: 
+these
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+known
+Stemming: 
+known
+Word token: 
+as
+Stemming: 
+as
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+.The
+Stemming: 
+.the
+Word token: 
+best
+Stemming: 
+best
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+hope
+Stemming: 
+hope
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+come
+Stemming: 
+come
+Word token: 
+up
+Stemming: 
+up
+Word token: 
+with
+Stemming: 
+with
+Word token: 
+minimizes
+Stemming: 
+minim
+Word token: 
+both
+Stemming: 
+both
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+bias
+Stemming: 
+bia
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+variance
+Stemming: 
+varianc
+Word token: 
+:
+Stemming: 
+:
+Lemmatization: 
+To
+Lemmatization: 
+produce
+Lemmatization: 
+a
+Lemmatization: 
+more
+Lemmatization: 
+accurate
+Lemmatization: 
+model
+Lemmatization: 
+of
+Lemmatization: 
+complex
+Lemmatization: 
+data
+Lemmatization: 
+we
+Lemmatization: 
+can
+Lemmatization: 
+add
+Lemmatization: 
+a
+Lemmatization: 
+penalty
+Lemmatization: 
+term
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+OLS
+Lemmatization: 
+equation
+Lemmatization: 
+.
+Lemmatization: 
+A
+Lemmatization: 
+penalty
+Lemmatization: 
+add
+Lemmatization: 
+a
+Lemmatization: 
+bias
+Lemmatization: 
+towards
+Lemmatization: 
+certain
+Lemmatization: 
+value
+Lemmatization: 
+.
+Lemmatization: 
+These
+Lemmatization: 
+are
+Lemmatization: 
+known
+Lemmatization: 
+a
+Lemmatization: 
+L1
+Lemmatization: 
+regularization
+Lemmatization: 
+(
+Lemmatization: 
+Lasso
+Lemmatization: 
+regression
+Lemmatization: 
+)
+Lemmatization: 
+and
+Lemmatization: 
+L2
+Lemmatization: 
+regularization
+Lemmatization: 
+(
+Lemmatization: 
+ridge
+Lemmatization: 
+regression
+Lemmatization: 
+)
+Lemmatization: 
+.The
+Lemmatization: 
+best
+Lemmatization: 
+model
+Lemmatization: 
+we
+Lemmatization: 
+can
+Lemmatization: 
+hope
+Lemmatization: 
+to
+Lemmatization: 
+come
+Lemmatization: 
+up
+Lemmatization: 
+with
+Lemmatization: 
+minimizes
+Lemmatization: 
+both
+Lemmatization: 
+the
+Lemmatization: 
+bias
+Lemmatization: 
+and
+Lemmatization: 
+the
+Lemmatization: 
+variance
+Lemmatization: 
+:
+Parts of speech: 
+[('To produce a more accurate model of complex data we can add a penalty term to the OLS equation.', 'NNP'), ('A penalty adds a bias towards certain values.', 'NNP'), ('These are known as L1 regularization(Lasso regression) and L2 regularization(ridge regression).The best model we can hope to come up with minimizes both the bias and the variance:', 'NNP')]Stentense token : 
+Ridge regression uses L2 regularization which adds the following penalty term to the OLS equation.
+TRIGRAM: 
+('Ridge', 'regression', 'uses')('regression', 'uses', 'L2')('uses', 'L2', 'regularization')('L2', 'regularization', 'which')('regularization', 'which', 'adds')('which', 'adds', 'the')('adds', 'the', 'following')('the', 'following', 'penalty')('following', 'penalty', 'term')('penalty', 'term', 'to')('term', 'to', 'the')('to', 'the', 'OLS')('the', 'OLS', 'equation.')
+Name Entity: 
+(S
+  (GPE Ridge/NNP)
+  regression/NN
+  uses/VBZ
+  L2/NNP
+  regularization/NN
+  which/WDT
+  adds/VBZ
+  the/DT
+  following/VBG
+  penalty/NN
+  term/NN
+  to/TO
+  the/DT
+  (ORGANIZATION OLS/NNP)
+  equation/NN
+  ./.)
+Word token: 
+Ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+uses
+Stemming: 
+use
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+which
+Stemming: 
+which
+Word token: 
+adds
+Stemming: 
+add
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+following
+Stemming: 
+follow
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+Ridge
+Lemmatization: 
+regression
+Lemmatization: 
+us
+Lemmatization: 
+L2
+Lemmatization: 
+regularization
+Lemmatization: 
+which
+Lemmatization: 
+add
+Lemmatization: 
+the
+Lemmatization: 
+following
+Lemmatization: 
+penalty
+Lemmatization: 
+term
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+OLS
+Lemmatization: 
+equation
+Lemmatization: 
+.
+Parts of speech: 
+[('Ridge regression uses L2 regularization which adds the following penalty term to the OLS equation.', 'NN')]Stentense token : 
+L2 regularization penalty term
+TRIGRAM: 
+('L2', 'regularization', 'penalty')('regularization', 'penalty', 'term')
+Name Entity: 
+(S (GPE L2/NNP) regularization/NN penalty/NN term/NN)
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+term
+Stemming: 
+term
+Lemmatization: 
+L2
+Lemmatization: 
+regularization
+Lemmatization: 
+penalty
+Lemmatization: 
+term
+Parts of speech: 
+[('L2 regularization penalty term', 'NN')]Stentense token : 
+The L2 term is equal to the square of the magnitude of the coefficients.
+TRIGRAM: 
+('The', 'L2', 'term')('L2', 'term', 'is')('term', 'is', 'equal')('is', 'equal', 'to')('equal', 'to', 'the')('to', 'the', 'square')('the', 'square', 'of')('square', 'of', 'the')('of', 'the', 'magnitude')('the', 'magnitude', 'of')('magnitude', 'of', 'the')('of', 'the', 'coefficients.')
+Name Entity: 
+(S
+  The/DT
+  L2/NNP
+  term/NN
+  is/VBZ
+  equal/JJ
+  to/TO
+  the/DT
+  square/NN
+  of/IN
+  the/DT
+  magnitude/NN
+  of/IN
+  the/DT
+  coefficients/NNS
+  ./.)Stentense token : 
+In this case if lambda(?)
+TRIGRAM: 
+('In', 'this', 'case')('this', 'case', 'if')('case', 'if', 'lambda(?)')
+Name Entity: 
+(S In/IN this/DT case/NN if/IN lambda/JJ (?)/NN)Stentense token : 
+is zero then the equation is the basic OLS but if it is greater than zero then we add a constraint to the coefficients.
+TRIGRAM: 
+('is', 'zero', 'then')('zero', 'then', 'the')('then', 'the', 'equation')('the', 'equation', 'is')('equation', 'is', 'the')('is', 'the', 'basic')('the', 'basic', 'OLS')('basic', 'OLS', 'but')('OLS', 'but', 'if')('but', 'if', 'it')('if', 'it', 'is')('it', 'is', 'greater')('is', 'greater', 'than')('greater', 'than', 'zero')('than', 'zero', 'then')('zero', 'then', 'we')('then', 'we', 'add')('we', 'add', 'a')('add', 'a', 'constraint')('a', 'constraint', 'to')('constraint', 'to', 'the')('to', 'the', 'coefficients.')
+Name Entity: 
+(S
+  is/VBZ
+  zero/CD
+  then/RB
+  the/DT
+  equation/NN
+  is/VBZ
+  the/DT
+  basic/JJ
+  OLS/NNP
+  but/CC
+  if/IN
+  it/PRP
+  is/VBZ
+  greater/JJR
+  than/IN
+  zero/CD
+  then/RB
+  we/PRP
+  add/VBP
+  a/DT
+  constraint/NN
+  to/TO
+  the/DT
+  coefficients/NNS
+  ./.)Stentense token : 
+This constraint results in minimized coefficients (aka shrinkage) that trend towards zero the larger the value of lambda.
+TRIGRAM: 
+('This', 'constraint', 'results')('constraint', 'results', 'in')('results', 'in', 'minimized')('in', 'minimized', 'coefficients')('minimized', 'coefficients', '(aka')('coefficients', '(aka', 'shrinkage)')('(aka', 'shrinkage)', 'that')('shrinkage)', 'that', 'trend')('that', 'trend', 'towards')('trend', 'towards', 'zero')('towards', 'zero', 'the')('zero', 'the', 'larger')('the', 'larger', 'the')('larger', 'the', 'value')('the', 'value', 'of')('value', 'of', 'lambda.')
+Name Entity: 
+(S
+  This/DT
+  constraint/NN
+  results/NNS
+  in/IN
+  minimized/JJ
+  coefficients/NNS
+  (/(
+  aka/JJ
+  shrinkage/NN
+  )/)
+  that/WDT
+  trend/NN
+  towards/NNS
+  zero/CD
+  the/DT
+  larger/JJR
+  the/DT
+  value/NN
+  of/IN
+  lambda/NN
+  ./.)Stentense token : 
+Shrinking the coefficients leads to a lower variance and in turn a lower error value.
+TRIGRAM: 
+('Shrinking', 'the', 'coefficients')('the', 'coefficients', 'leads')('coefficients', 'leads', 'to')('leads', 'to', 'a')('to', 'a', 'lower')('a', 'lower', 'variance')('lower', 'variance', 'and')('variance', 'and', 'in')('and', 'in', 'turn')('in', 'turn', 'a')('turn', 'a', 'lower')('a', 'lower', 'error')('lower', 'error', 'value.')
+Name Entity: 
+(S
+  Shrinking/VBG
+  the/DT
+  coefficients/NNS
+  leads/VBZ
+  to/TO
+  a/DT
+  lower/JJR
+  variance/NN
+  and/CC
+  in/IN
+  turn/NN
+  a/DT
+  lower/JJR
+  error/NN
+  value/NN
+  ./.)Stentense token : 
+Therefore Ridge regression decreases the complexity of a model but does not reduce the number of variables, it rather just shrinks their effect.
+TRIGRAM: 
+('Therefore', 'Ridge', 'regression')('Ridge', 'regression', 'decreases')('regression', 'decreases', 'the')('decreases', 'the', 'complexity')('the', 'complexity', 'of')('complexity', 'of', 'a')('of', 'a', 'model')('a', 'model', 'but')('model', 'but', 'does')('but', 'does', 'not')('does', 'not', 'reduce')('not', 'reduce', 'the')('reduce', 'the', 'number')('the', 'number', 'of')('number', 'of', 'variables,')('of', 'variables,', 'it')('variables,', 'it', 'rather')('it', 'rather', 'just')('rather', 'just', 'shrinks')('just', 'shrinks', 'their')('shrinks', 'their', 'effect.')
+Name Entity: 
+(S
+  Therefore/RB
+  Ridge/NNP
+  regression/NN
+  decreases/VBZ
+  the/DT
+  complexity/NN
+  of/IN
+  a/DT
+  model/NN
+  but/CC
+  does/VBZ
+  not/RB
+  reduce/VB
+  the/DT
+  number/NN
+  of/IN
+  variables/NNS
+  ,/,
+  it/PRP
+  rather/RB
+  just/RB
+  shrinks/VB
+  their/PRP$
+  effect/NN
+  ./.)
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+equal
+Stemming: 
+equal
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+square
+Stemming: 
+squar
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+magnitude
+Stemming: 
+magnitud
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+In
+Stemming: 
+In
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+case
+Stemming: 
+case
+Word token: 
+if
+Stemming: 
+if
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+then
+Stemming: 
+then
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+basic
+Stemming: 
+basic
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+but
+Stemming: 
+but
+Word token: 
+if
+Stemming: 
+if
+Word token: 
+it
+Stemming: 
+it
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+greater
+Stemming: 
+greater
+Word token: 
+than
+Stemming: 
+than
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+then
+Stemming: 
+then
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+add
+Stemming: 
+add
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+constraint
+Stemming: 
+constraint
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+This
+Stemming: 
+thi
+Word token: 
+constraint
+Stemming: 
+constraint
+Word token: 
+results
+Stemming: 
+result
+Word token: 
+in
+Stemming: 
+in
+Word token: 
+minimized
+Stemming: 
+minim
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+aka
+Stemming: 
+aka
+Word token: 
+shrinkage
+Stemming: 
+shrinkag
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+trend
+Stemming: 
+trend
+Word token: 
+towards
+Stemming: 
+toward
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+larger
+Stemming: 
+larger
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Shrinking
+Stemming: 
+shrink
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+leads
+Stemming: 
+lead
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+lower
+Stemming: 
+lower
+Word token: 
+variance
+Stemming: 
+varianc
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+in
+Stemming: 
+in
+Word token: 
+turn
+Stemming: 
+turn
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+lower
+Stemming: 
+lower
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Therefore
+Stemming: 
+therefor
+Word token: 
+Ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+decreases
+Stemming: 
+decreas
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+complexity
+Stemming: 
+complex
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+but
+Stemming: 
+but
+Word token: 
+does
+Stemming: 
+doe
+Word token: 
+not
+Stemming: 
+not
+Word token: 
+reduce
+Stemming: 
+reduc
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+number
+Stemming: 
+number
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+variables
+Stemming: 
+variabl
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+it
+Stemming: 
+it
+Word token: 
+rather
+Stemming: 
+rather
+Word token: 
+just
+Stemming: 
+just
+Word token: 
+shrinks
+Stemming: 
+shrink
+Word token: 
+their
+Stemming: 
+their
+Word token: 
+effect
+Stemming: 
+effect
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+L2
+Lemmatization: 
+term
+Lemmatization: 
+is
+Lemmatization: 
+equal
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+square
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+magnitude
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+coefficient
+Lemmatization: 
+.
+Lemmatization: 
+In
+Lemmatization: 
+this
+Lemmatization: 
+case
+Lemmatization: 
+if
+Lemmatization: 
+lambda
+Lemmatization: 
+(
+Lemmatization: 
+?
+Lemmatization: 
+)
+Lemmatization: 
+is
+Lemmatization: 
+zero
+Lemmatization: 
+then
+Lemmatization: 
+the
+Lemmatization: 
+equation
+Lemmatization: 
+is
+Lemmatization: 
+the
+Lemmatization: 
+basic
+Lemmatization: 
+OLS
+Lemmatization: 
+but
+Lemmatization: 
+if
+Lemmatization: 
+it
+Lemmatization: 
+is
+Lemmatization: 
+greater
+Lemmatization: 
+than
+Lemmatization: 
+zero
+Lemmatization: 
+then
+Lemmatization: 
+we
+Lemmatization: 
+add
+Lemmatization: 
+a
+Lemmatization: 
+constraint
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+coefficient
+Lemmatization: 
+.
+Lemmatization: 
+This
+Lemmatization: 
+constraint
+Lemmatization: 
+result
+Lemmatization: 
+in
+Lemmatization: 
+minimized
+Lemmatization: 
+coefficient
+Lemmatization: 
+(
+Lemmatization: 
+aka
+Lemmatization: 
+shrinkage
+Lemmatization: 
+)
+Lemmatization: 
+that
+Lemmatization: 
+trend
+Lemmatization: 
+towards
+Lemmatization: 
+zero
+Lemmatization: 
+the
+Lemmatization: 
+larger
+Lemmatization: 
+the
+Lemmatization: 
+value
+Lemmatization: 
+of
+Lemmatization: 
+lambda
+Lemmatization: 
+.
+Lemmatization: 
+Shrinking
+Lemmatization: 
+the
+Lemmatization: 
+coefficient
+Lemmatization: 
+lead
+Lemmatization: 
+to
+Lemmatization: 
+a
+Lemmatization: 
+lower
+Lemmatization: 
+variance
+Lemmatization: 
+and
+Lemmatization: 
+in
+Lemmatization: 
+turn
+Lemmatization: 
+a
+Lemmatization: 
+lower
+Lemmatization: 
+error
+Lemmatization: 
+value
+Lemmatization: 
+.
+Lemmatization: 
+Therefore
+Lemmatization: 
+Ridge
+Lemmatization: 
+regression
+Lemmatization: 
+decrease
+Lemmatization: 
+the
+Lemmatization: 
+complexity
+Lemmatization: 
+of
+Lemmatization: 
+a
+Lemmatization: 
+model
+Lemmatization: 
+but
+Lemmatization: 
+doe
+Lemmatization: 
+not
+Lemmatization: 
+reduce
+Lemmatization: 
+the
+Lemmatization: 
+number
+Lemmatization: 
+of
+Lemmatization: 
+variable
+Lemmatization: 
+,
+Lemmatization: 
+it
+Lemmatization: 
+rather
+Lemmatization: 
+just
+Lemmatization: 
+shrink
+Lemmatization: 
+their
+Lemmatization: 
+effect
+Lemmatization: 
+.
+Parts of speech: 
+[('The L2 term is equal to the square of the magnitude of the coefficients.', 'NNP'), ('In this case if lambda(?)', 'NNP'), ('is zero then the equation is the basic OLS but if it is greater than zero then we add a constraint to the coefficients.', 'NN'), ('This constraint results in minimized coefficients (aka shrinkage) that trend towards zero the larger the value of lambda.', 'NNP'), ('Shrinking the coefficients leads to a lower variance and in turn a lower error value.', 'NNP'), ('Therefore Ridge regression decreases the complexity of a model but does not reduce the number of variables, it rather just shrinks their effect.', 'NNP')]Stentense token : 
+Lasso regression
+TRIGRAM: 
+
+Name Entity: 
+(S (GPE Lasso/NNP) regression/NN)
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Lemmatization: 
+Lasso
+Lemmatization: 
+regression
+Parts of speech: 
+[('Lasso regression', 'NN')]Stentense token : 
+Lasso regression uses the L1 penalty term and stands for Least Absolute Shrinkage and Selection Operator.
+TRIGRAM: 
+('Lasso', 'regression', 'uses')('regression', 'uses', 'the')('uses', 'the', 'L1')('the', 'L1', 'penalty')('L1', 'penalty', 'term')('penalty', 'term', 'and')('term', 'and', 'stands')('and', 'stands', 'for')('stands', 'for', 'Least')('for', 'Least', 'Absolute')('Least', 'Absolute', 'Shrinkage')('Absolute', 'Shrinkage', 'and')('Shrinkage', 'and', 'Selection')('and', 'Selection', 'Operator.')
+Name Entity: 
+(S
+  (GPE Lasso/NNP)
+  regression/NN
+  uses/VBZ
+  the/DT
+  L1/NNP
+  penalty/NN
+  term/NN
+  and/CC
+  stands/VBZ
+  for/IN
+  (PERSON Least/NNP Absolute/NNP Shrinkage/NNP)
+  and/CC
+  (ORGANIZATION Selection/NNP Operator/NNP)
+  ./.)Stentense token : 
+The penalty applied for L2 is equal to the absolute value of the magnitude of the coefficients:
+TRIGRAM: 
+('The', 'penalty', 'applied')('penalty', 'applied', 'for')('applied', 'for', 'L2')('for', 'L2', 'is')('L2', 'is', 'equal')('is', 'equal', 'to')('equal', 'to', 'the')('to', 'the', 'absolute')('the', 'absolute', 'value')('absolute', 'value', 'of')('value', 'of', 'the')('of', 'the', 'magnitude')('the', 'magnitude', 'of')('magnitude', 'of', 'the')('of', 'the', 'coefficients:')
+Name Entity: 
+(S
+  The/DT
+  penalty/NN
+  applied/VBD
+  for/IN
+  L2/NNP
+  is/VBZ
+  equal/JJ
+  to/TO
+  the/DT
+  absolute/JJ
+  value/NN
+  of/IN
+  the/DT
+  magnitude/NN
+  of/IN
+  the/DT
+  coefficients/NNS
+  :/:)
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+uses
+Stemming: 
+use
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+stands
+Stemming: 
+stand
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+Least
+Stemming: 
+least
+Word token: 
+Absolute
+Stemming: 
+absolut
+Word token: 
+Shrinkage
+Stemming: 
+shrinkag
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+Selection
+Stemming: 
+select
+Word token: 
+Operator
+Stemming: 
+oper
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+applied
+Stemming: 
+appli
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+equal
+Stemming: 
+equal
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+absolute
+Stemming: 
+absolut
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+magnitude
+Stemming: 
+magnitud
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+:
+Stemming: 
+:
+Lemmatization: 
+Lasso
+Lemmatization: 
+regression
+Lemmatization: 
+us
+Lemmatization: 
+the
+Lemmatization: 
+L1
+Lemmatization: 
+penalty
+Lemmatization: 
+term
+Lemmatization: 
+and
+Lemmatization: 
+stand
+Lemmatization: 
+for
+Lemmatization: 
+Least
+Lemmatization: 
+Absolute
+Lemmatization: 
+Shrinkage
+Lemmatization: 
+and
+Lemmatization: 
+Selection
+Lemmatization: 
+Operator
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+penalty
+Lemmatization: 
+applied
+Lemmatization: 
+for
+Lemmatization: 
+L2
+Lemmatization: 
+is
+Lemmatization: 
+equal
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+absolute
+Lemmatization: 
+value
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+magnitude
+Lemmatization: 
+of
+Lemmatization: 
+the
+Lemmatization: 
+coefficient
+Lemmatization: 
+:
+Parts of speech: 
+[('Lasso regression uses the L1 penalty term and stands for Least Absolute Shrinkage and Selection Operator.', 'NNP'), ('The penalty applied for L2 is equal to the absolute value of the magnitude of the coefficients:', 'NNP')]Stentense token : 
+L1 regularization penalty term
+TRIGRAM: 
+('L1', 'regularization', 'penalty')('regularization', 'penalty', 'term')
+Name Entity: 
+(S (GPE L1/NNP) regularization/NN penalty/NN term/NN)
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+term
+Stemming: 
+term
+Lemmatization: 
+L1
+Lemmatization: 
+regularization
+Lemmatization: 
+penalty
+Lemmatization: 
+term
+Parts of speech: 
+[('L1 regularization penalty term', 'NN')]Stentense token : 
+Similar to ridge regression, a lambda value of zero spits out the basic OLS equation, however given a suitable lambda value lasso regression can drive some coefficients to zero.
+TRIGRAM: 
+('Similar', 'to', 'ridge')('to', 'ridge', 'regression,')('ridge', 'regression,', 'a')('regression,', 'a', 'lambda')('a', 'lambda', 'value')('lambda', 'value', 'of')('value', 'of', 'zero')('of', 'zero', 'spits')('zero', 'spits', 'out')('spits', 'out', 'the')('out', 'the', 'basic')('the', 'basic', 'OLS')('basic', 'OLS', 'equation,')('OLS', 'equation,', 'however')('equation,', 'however', 'given')('however', 'given', 'a')('given', 'a', 'suitable')('a', 'suitable', 'lambda')('suitable', 'lambda', 'value')('lambda', 'value', 'lasso')('value', 'lasso', 'regression')('lasso', 'regression', 'can')('regression', 'can', 'drive')('can', 'drive', 'some')('drive', 'some', 'coefficients')('some', 'coefficients', 'to')('coefficients', 'to', 'zero.')
+Name Entity: 
+(S
+  (GPE Similar/JJ)
+  to/TO
+  ridge/VB
+  regression/NN
+  ,/,
+  a/DT
+  lambda/JJ
+  value/NN
+  of/IN
+  zero/CD
+  spits/NNS
+  out/IN
+  the/DT
+  basic/JJ
+  (ORGANIZATION OLS/NNP)
+  equation/NN
+  ,/,
+  however/RB
+  given/VBN
+  a/DT
+  suitable/JJ
+  lambda/NN
+  value/NN
+  lasso/VBZ
+  regression/NN
+  can/MD
+  drive/VB
+  some/DT
+  coefficients/NNS
+  to/TO
+  zero/CD
+  ./.)Stentense token : 
+The larger the value of lambda the more features are shrunk to zero.
+TRIGRAM: 
+('The', 'larger', 'the')('larger', 'the', 'value')('the', 'value', 'of')('value', 'of', 'lambda')('of', 'lambda', 'the')('lambda', 'the', 'more')('the', 'more', 'features')('more', 'features', 'are')('features', 'are', 'shrunk')('are', 'shrunk', 'to')('shrunk', 'to', 'zero.')
+Name Entity: 
+(S
+  The/DT
+  larger/JJR
+  the/DT
+  value/NN
+  of/IN
+  lambda/JJR
+  the/DT
+  more/JJR
+  features/NNS
+  are/VBP
+  shrunk/JJ
+  to/TO
+  zero/CD
+  ./.)Stentense token : 
+This can eliminate some features entirely and give us a subset of predictors that helps mitigate multi-collinearity and model complexity.
+TRIGRAM: 
+('This', 'can', 'eliminate')('can', 'eliminate', 'some')('eliminate', 'some', 'features')('some', 'features', 'entirely')('features', 'entirely', 'and')('entirely', 'and', 'give')('and', 'give', 'us')('give', 'us', 'a')('us', 'a', 'subset')('a', 'subset', 'of')('subset', 'of', 'predictors')('of', 'predictors', 'that')('predictors', 'that', 'helps')('that', 'helps', 'mitigate')('helps', 'mitigate', 'multi-collinearity')('mitigate', 'multi-collinearity', 'and')('multi-collinearity', 'and', 'model')('and', 'model', 'complexity.')
+Name Entity: 
+(S
+  This/DT
+  can/MD
+  eliminate/VB
+  some/DT
+  features/NNS
+  entirely/RB
+  and/CC
+  give/VB
+  us/PRP
+  a/DT
+  subset/NN
+  of/IN
+  predictors/NNS
+  that/WDT
+  helps/VBZ
+  mitigate/VB
+  multi/JJ
+  -/:
+  collinearity/NN
+  and/CC
+  model/NN
+  complexity/NN
+  ./.)Stentense token : 
+Predictors not shrunk towards zero signify that they are important and thus L1 regularization allows for feature selection (sparse selection).
+TRIGRAM: 
+('Predictors', 'not', 'shrunk')('not', 'shrunk', 'towards')('shrunk', 'towards', 'zero')('towards', 'zero', 'signify')('zero', 'signify', 'that')('signify', 'that', 'they')('that', 'they', 'are')('they', 'are', 'important')('are', 'important', 'and')('important', 'and', 'thus')('and', 'thus', 'L1')('thus', 'L1', 'regularization')('L1', 'regularization', 'allows')('regularization', 'allows', 'for')('allows', 'for', 'feature')('for', 'feature', 'selection')('feature', 'selection', '(sparse')('selection', '(sparse', 'selection).')
+Name Entity: 
+(S
+  Predictors/NNS
+  not/RB
+  shrunk/JJ
+  towards/NNS
+  zero/CD
+  signify/VBP
+  that/IN
+  they/PRP
+  are/VBP
+  important/JJ
+  and/CC
+  thus/RB
+  L1/NNP
+  regularization/NN
+  allows/VBZ
+  for/IN
+  feature/NN
+  selection/NN
+  (/(
+  sparse/JJ
+  selection/NN
+  )./NN)
+Word token: 
+Similar
+Stemming: 
+similar
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+spits
+Stemming: 
+spit
+Word token: 
+out
+Stemming: 
+out
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+basic
+Stemming: 
+basic
+Word token: 
+OLS
+Stemming: 
+ol
+Word token: 
+equation
+Stemming: 
+equat
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+however
+Stemming: 
+howev
+Word token: 
+given
+Stemming: 
+given
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+suitable
+Stemming: 
+suitabl
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+drive
+Stemming: 
+drive
+Word token: 
+some
+Stemming: 
+some
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+larger
+Stemming: 
+larger
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+more
+Stemming: 
+more
+Word token: 
+features
+Stemming: 
+featur
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+shrunk
+Stemming: 
+shrunk
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+This
+Stemming: 
+thi
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+eliminate
+Stemming: 
+elimin
+Word token: 
+some
+Stemming: 
+some
+Word token: 
+features
+Stemming: 
+featur
+Word token: 
+entirely
+Stemming: 
+entir
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+give
+Stemming: 
+give
+Word token: 
+us
+Stemming: 
+us
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+subset
+Stemming: 
+subset
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+predictors
+Stemming: 
+predictor
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+helps
+Stemming: 
+help
+Word token: 
+mitigate
+Stemming: 
+mitig
+Word token: 
+multi-collinearity
+Stemming: 
+multi-collinear
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+complexity
+Stemming: 
+complex
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Predictors
+Stemming: 
+predictor
+Word token: 
+not
+Stemming: 
+not
+Word token: 
+shrunk
+Stemming: 
+shrunk
+Word token: 
+towards
+Stemming: 
+toward
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+signify
+Stemming: 
+signifi
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+they
+Stemming: 
+they
+Word token: 
+are
+Stemming: 
+are
+Word token: 
+important
+Stemming: 
+import
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+thus
+Stemming: 
+thu
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+allows
+Stemming: 
+allow
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+feature
+Stemming: 
+featur
+Word token: 
+selection
+Stemming: 
+select
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+sparse
+Stemming: 
+spars
+Word token: 
+selection
+Stemming: 
+select
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+Similar
+Lemmatization: 
+to
+Lemmatization: 
+ridge
+Lemmatization: 
+regression
+Lemmatization: 
+,
+Lemmatization: 
+a
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+of
+Lemmatization: 
+zero
+Lemmatization: 
+spit
+Lemmatization: 
+out
+Lemmatization: 
+the
+Lemmatization: 
+basic
+Lemmatization: 
+OLS
+Lemmatization: 
+equation
+Lemmatization: 
+,
+Lemmatization: 
+however
+Lemmatization: 
+given
+Lemmatization: 
+a
+Lemmatization: 
+suitable
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+lasso
+Lemmatization: 
+regression
+Lemmatization: 
+can
+Lemmatization: 
+drive
+Lemmatization: 
+some
+Lemmatization: 
+coefficient
+Lemmatization: 
+to
+Lemmatization: 
+zero
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+larger
+Lemmatization: 
+the
+Lemmatization: 
+value
+Lemmatization: 
+of
+Lemmatization: 
+lambda
+Lemmatization: 
+the
+Lemmatization: 
+more
+Lemmatization: 
+feature
+Lemmatization: 
+are
+Lemmatization: 
+shrunk
+Lemmatization: 
+to
+Lemmatization: 
+zero
+Lemmatization: 
+.
+Lemmatization: 
+This
+Lemmatization: 
+can
+Lemmatization: 
+eliminate
+Lemmatization: 
+some
+Lemmatization: 
+feature
+Lemmatization: 
+entirely
+Lemmatization: 
+and
+Lemmatization: 
+give
+Lemmatization: 
+u
+Lemmatization: 
+a
+Lemmatization: 
+subset
+Lemmatization: 
+of
+Lemmatization: 
+predictor
+Lemmatization: 
+that
+Lemmatization: 
+help
+Lemmatization: 
+mitigate
+Lemmatization: 
+multi-collinearity
+Lemmatization: 
+and
+Lemmatization: 
+model
+Lemmatization: 
+complexity
+Lemmatization: 
+.
+Lemmatization: 
+Predictors
+Lemmatization: 
+not
+Lemmatization: 
+shrunk
+Lemmatization: 
+towards
+Lemmatization: 
+zero
+Lemmatization: 
+signify
+Lemmatization: 
+that
+Lemmatization: 
+they
+Lemmatization: 
+are
+Lemmatization: 
+important
+Lemmatization: 
+and
+Lemmatization: 
+thus
+Lemmatization: 
+L1
+Lemmatization: 
+regularization
+Lemmatization: 
+allows
+Lemmatization: 
+for
+Lemmatization: 
+feature
+Lemmatization: 
+selection
+Lemmatization: 
+(
+Lemmatization: 
+sparse
+Lemmatization: 
+selection
+Lemmatization: 
+)
+Lemmatization: 
+.
+Parts of speech: 
+[('Similar to ridge regression, a lambda value of zero spits out the basic OLS equation, however given a suitable lambda value lasso regression can drive some coefficients to zero.', 'NNP'), ('The larger the value of lambda the more features are shrunk to zero.', 'NNP'), ('This can eliminate some features entirely and give us a subset of predictors that helps mitigate multi-collinearity and model complexity.', 'NNP'), ('Predictors not shrunk towards zero signify that they are important and thus L1 regularization allows for feature selection (sparse selection).', 'NNP')]Stentense token : 
+A third commonly used model of regression is the Elastic Net which incorporates penalties from both L1 and L2 regularization:
+TRIGRAM: 
+('A', 'third', 'commonly')('third', 'commonly', 'used')('commonly', 'used', 'model')('used', 'model', 'of')('model', 'of', 'regression')('of', 'regression', 'is')('regression', 'is', 'the')('is', 'the', 'Elastic')('the', 'Elastic', 'Net')('Elastic', 'Net', 'which')('Net', 'which', 'incorporates')('which', 'incorporates', 'penalties')('incorporates', 'penalties', 'from')('penalties', 'from', 'both')('from', 'both', 'L1')('both', 'L1', 'and')('L1', 'and', 'L2')('and', 'L2', 'regularization:')
+Name Entity: 
+(S
+  A/DT
+  third/JJ
+  commonly/RB
+  used/VBD
+  model/NN
+  of/IN
+  regression/NN
+  is/VBZ
+  the/DT
+  (ORGANIZATION Elastic/JJ Net/NNP)
+  which/WDT
+  incorporates/VBZ
+  penalties/NNS
+  from/IN
+  both/DT
+  L1/NNP
+  and/CC
+  L2/NNP
+  regularization/NN
+  :/:)
+Word token: 
+A
+Stemming: 
+A
+Word token: 
+third
+Stemming: 
+third
+Word token: 
+commonly
+Stemming: 
+commonli
+Word token: 
+used
+Stemming: 
+use
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+Elastic
+Stemming: 
+elast
+Word token: 
+Net
+Stemming: 
+net
+Word token: 
+which
+Stemming: 
+which
+Word token: 
+incorporates
+Stemming: 
+incorpor
+Word token: 
+penalties
+Stemming: 
+penalti
+Word token: 
+from
+Stemming: 
+from
+Word token: 
+both
+Stemming: 
+both
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+regularization
+Stemming: 
+regular
+Word token: 
+:
+Stemming: 
+:
+Lemmatization: 
+A
+Lemmatization: 
+third
+Lemmatization: 
+commonly
+Lemmatization: 
+used
+Lemmatization: 
+model
+Lemmatization: 
+of
+Lemmatization: 
+regression
+Lemmatization: 
+is
+Lemmatization: 
+the
+Lemmatization: 
+Elastic
+Lemmatization: 
+Net
+Lemmatization: 
+which
+Lemmatization: 
+incorporates
+Lemmatization: 
+penalty
+Lemmatization: 
+from
+Lemmatization: 
+both
+Lemmatization: 
+L1
+Lemmatization: 
+and
+Lemmatization: 
+L2
+Lemmatization: 
+regularization
+Lemmatization: 
+:
+Parts of speech: 
+[('A third commonly used model of regression is the Elastic Net which incorporates penalties from both L1 and L2 regularization:', 'NN')]Stentense token : 
+In addition to setting and choosing a lambda value elastic net also allows us to tune the alpha parameter where ??
+TRIGRAM: 
+('In', 'addition', 'to')('addition', 'to', 'setting')('to', 'setting', 'and')('setting', 'and', 'choosing')('and', 'choosing', 'a')('choosing', 'a', 'lambda')('a', 'lambda', 'value')('lambda', 'value', 'elastic')('value', 'elastic', 'net')('elastic', 'net', 'also')('net', 'also', 'allows')('also', 'allows', 'us')('allows', 'us', 'to')('us', 'to', 'tune')('to', 'tune', 'the')('tune', 'the', 'alpha')('the', 'alpha', 'parameter')('alpha', 'parameter', 'where')('parameter', 'where', '??')
+Name Entity: 
+(S
+  In/IN
+  addition/NN
+  to/TO
+  setting/VBG
+  and/CC
+  choosing/VBG
+  a/DT
+  lambda/JJ
+  value/NN
+  elastic/JJ
+  net/NN
+  also/RB
+  allows/VBZ
+  us/PRP
+  to/TO
+  tune/VB
+  the/DT
+  alpha/NN
+  parameter/NN
+  where/WRB
+  ??/NN)Stentense token : 
+= 0 corresponds to ridge and ??
+TRIGRAM: 
+('=', '0', 'corresponds')('0', 'corresponds', 'to')('corresponds', 'to', 'ridge')('to', 'ridge', 'and')('ridge', 'and', '??')
+Name Entity: 
+(S =/RB 0/CD corresponds/NNS to/TO ridge/VB and/CC ??/VB)Stentense token : 
+= 1 to lasso.
+TRIGRAM: 
+('=', '1', 'to')('1', 'to', 'lasso.')
+Name Entity: 
+(S =/RB 1/CD to/TO lasso/VB ./.)Stentense token : 
+Simply put, if you plug in 0 for alpha, the penalty function reduces to the L1 (ridge) term and if we set alpha to 1 we get the L2 (lasso) term.
+TRIGRAM: 
+('Simply', 'put,', 'if')('put,', 'if', 'you')('if', 'you', 'plug')('you', 'plug', 'in')('plug', 'in', '0')('in', '0', 'for')('0', 'for', 'alpha,')('for', 'alpha,', 'the')('alpha,', 'the', 'penalty')('the', 'penalty', 'function')('penalty', 'function', 'reduces')('function', 'reduces', 'to')('reduces', 'to', 'the')('to', 'the', 'L1')('the', 'L1', '(ridge)')('L1', '(ridge)', 'term')('(ridge)', 'term', 'and')('term', 'and', 'if')('and', 'if', 'we')('if', 'we', 'set')('we', 'set', 'alpha')('set', 'alpha', 'to')('alpha', 'to', '1')('to', '1', 'we')('1', 'we', 'get')('we', 'get', 'the')('get', 'the', 'L2')('the', 'L2', '(lasso)')('L2', '(lasso)', 'term.')
+Name Entity: 
+(S
+  (PERSON Simply/NNP)
+  put/VBD
+  ,/,
+  if/IN
+  you/PRP
+  plug/VBP
+  in/IN
+  0/CD
+  for/IN
+  alpha/NN
+  ,/,
+  the/DT
+  penalty/NN
+  function/NN
+  reduces/NNS
+  to/TO
+  the/DT
+  L1/NNP
+  (/(
+  ridge/NN
+  )/)
+  term/NN
+  and/CC
+  if/IN
+  we/PRP
+  set/VBP
+  alpha/RB
+  to/TO
+  1/CD
+  we/PRP
+  get/VBP
+  the/DT
+  L2/NNP
+  (/(
+  lasso/NN
+  )/)
+  term/NN
+  ./.)Stentense token : 
+Therefore we can choose an alpha value between 0 and 1 to optimize the elastic net.
+TRIGRAM: 
+('Therefore', 'we', 'can')('we', 'can', 'choose')('can', 'choose', 'an')('choose', 'an', 'alpha')('an', 'alpha', 'value')('alpha', 'value', 'between')('value', 'between', '0')('between', '0', 'and')('0', 'and', '1')('and', '1', 'to')('1', 'to', 'optimize')('to', 'optimize', 'the')('optimize', 'the', 'elastic')('the', 'elastic', 'net.')
+Name Entity: 
+(S
+  Therefore/IN
+  we/PRP
+  can/MD
+  choose/VB
+  an/DT
+  alpha/NN
+  value/NN
+  between/IN
+  0/CD
+  and/CC
+  1/CD
+  to/TO
+  optimize/VB
+  the/DT
+  elastic/JJ
+  net/NN
+  ./.)Stentense token : 
+Effectively this will shrink some coefficients and set some to 0 for sparse selection.
+TRIGRAM: 
+('Effectively', 'this', 'will')('this', 'will', 'shrink')('will', 'shrink', 'some')('shrink', 'some', 'coefficients')('some', 'coefficients', 'and')('coefficients', 'and', 'set')('and', 'set', 'some')('set', 'some', 'to')('some', 'to', '0')('to', '0', 'for')('0', 'for', 'sparse')('for', 'sparse', 'selection.')
+Name Entity: 
+(S
+  Effectively/RB
+  this/DT
+  will/MD
+  shrink/VB
+  some/DT
+  coefficients/NNS
+  and/CC
+  set/VB
+  some/DT
+  to/TO
+  0/CD
+  for/IN
+  sparse/JJ
+  selection/NN
+  ./.)
+Word token: 
+In
+Stemming: 
+In
+Word token: 
+addition
+Stemming: 
+addit
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+setting
+Stemming: 
+set
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+choosing
+Stemming: 
+choos
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+elastic
+Stemming: 
+elast
+Word token: 
+net
+Stemming: 
+net
+Word token: 
+also
+Stemming: 
+also
+Word token: 
+allows
+Stemming: 
+allow
+Word token: 
+us
+Stemming: 
+us
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+tune
+Stemming: 
+tune
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+parameter
+Stemming: 
+paramet
+Word token: 
+where
+Stemming: 
+where
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+=
+Stemming: 
+=
+Word token: 
+0
+Stemming: 
+0
+Word token: 
+corresponds
+Stemming: 
+correspond
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+=
+Stemming: 
+=
+Word token: 
+1
+Stemming: 
+1
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+lasso
+Stemming: 
+lasso
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Simply
+Stemming: 
+simpli
+Word token: 
+put
+Stemming: 
+put
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+if
+Stemming: 
+if
+Word token: 
+you
+Stemming: 
+you
+Word token: 
+plug
+Stemming: 
+plug
+Word token: 
+in
+Stemming: 
+in
+Word token: 
+0
+Stemming: 
+0
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+penalty
+Stemming: 
+penalti
+Word token: 
+function
+Stemming: 
+function
+Word token: 
+reduces
+Stemming: 
+reduc
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+L1
+Stemming: 
+L1
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+if
+Stemming: 
+if
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+set
+Stemming: 
+set
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+1
+Stemming: 
+1
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+get
+Stemming: 
+get
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+L2
+Stemming: 
+L2
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+lasso
+Stemming: 
+lasso
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+term
+Stemming: 
+term
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Therefore
+Stemming: 
+therefor
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+choose
+Stemming: 
+choos
+Word token: 
+an
+Stemming: 
+an
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+between
+Stemming: 
+between
+Word token: 
+0
+Stemming: 
+0
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+1
+Stemming: 
+1
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+optimize
+Stemming: 
+optim
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+elastic
+Stemming: 
+elast
+Word token: 
+net
+Stemming: 
+net
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Effectively
+Stemming: 
+effect
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+will
+Stemming: 
+will
+Word token: 
+shrink
+Stemming: 
+shrink
+Word token: 
+some
+Stemming: 
+some
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+set
+Stemming: 
+set
+Word token: 
+some
+Stemming: 
+some
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+0
+Stemming: 
+0
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+sparse
+Stemming: 
+spars
+Word token: 
+selection
+Stemming: 
+select
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+In
+Lemmatization: 
+addition
+Lemmatization: 
+to
+Lemmatization: 
+setting
+Lemmatization: 
+and
+Lemmatization: 
+choosing
+Lemmatization: 
+a
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+elastic
+Lemmatization: 
+net
+Lemmatization: 
+also
+Lemmatization: 
+allows
+Lemmatization: 
+u
+Lemmatization: 
+to
+Lemmatization: 
+tune
+Lemmatization: 
+the
+Lemmatization: 
+alpha
+Lemmatization: 
+parameter
+Lemmatization: 
+where
+Lemmatization: 
+?
+Lemmatization: 
+?
+Lemmatization: 
+=
+Lemmatization: 
+0
+Lemmatization: 
+corresponds
+Lemmatization: 
+to
+Lemmatization: 
+ridge
+Lemmatization: 
+and
+Lemmatization: 
+?
+Lemmatization: 
+?
+Lemmatization: 
+=
+Lemmatization: 
+1
+Lemmatization: 
+to
+Lemmatization: 
+lasso
+Lemmatization: 
+.
+Lemmatization: 
+Simply
+Lemmatization: 
+put
+Lemmatization: 
+,
+Lemmatization: 
+if
+Lemmatization: 
+you
+Lemmatization: 
+plug
+Lemmatization: 
+in
+Lemmatization: 
+0
+Lemmatization: 
+for
+Lemmatization: 
+alpha
+Lemmatization: 
+,
+Lemmatization: 
+the
+Lemmatization: 
+penalty
+Lemmatization: 
+function
+Lemmatization: 
+reduces
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+L1
+Lemmatization: 
+(
+Lemmatization: 
+ridge
+Lemmatization: 
+)
+Lemmatization: 
+term
+Lemmatization: 
+and
+Lemmatization: 
+if
+Lemmatization: 
+we
+Lemmatization: 
+set
+Lemmatization: 
+alpha
+Lemmatization: 
+to
+Lemmatization: 
+1
+Lemmatization: 
+we
+Lemmatization: 
+get
+Lemmatization: 
+the
+Lemmatization: 
+L2
+Lemmatization: 
+(
+Lemmatization: 
+lasso
+Lemmatization: 
+)
+Lemmatization: 
+term
+Lemmatization: 
+.
+Lemmatization: 
+Therefore
+Lemmatization: 
+we
+Lemmatization: 
+can
+Lemmatization: 
+choose
+Lemmatization: 
+an
+Lemmatization: 
+alpha
+Lemmatization: 
+value
+Lemmatization: 
+between
+Lemmatization: 
+0
+Lemmatization: 
+and
+Lemmatization: 
+1
+Lemmatization: 
+to
+Lemmatization: 
+optimize
+Lemmatization: 
+the
+Lemmatization: 
+elastic
+Lemmatization: 
+net
+Lemmatization: 
+.
+Lemmatization: 
+Effectively
+Lemmatization: 
+this
+Lemmatization: 
+will
+Lemmatization: 
+shrink
+Lemmatization: 
+some
+Lemmatization: 
+coefficient
+Lemmatization: 
+and
+Lemmatization: 
+set
+Lemmatization: 
+some
+Lemmatization: 
+to
+Lemmatization: 
+0
+Lemmatization: 
+for
+Lemmatization: 
+sparse
+Lemmatization: 
+selection
+Lemmatization: 
+.
+Parts of speech: 
+[('In addition to setting and choosing a lambda value elastic net also allows us to tune the alpha parameter where ??', 'NNP'), ('= 0 corresponds to ridge and ??', 'NNP'), ('= 1 to lasso.', 'NNP'), ('Simply put, if you plug in 0 for alpha, the penalty function reduces to the L1 (ridge) term and if we set alpha to 1 we get the L2 (lasso) term.', 'NNP'), ('Therefore we can choose an alpha value between 0 and 1 to optimize the elastic net.', 'NNP'), ('Effectively this will shrink some coefficients and set some to 0 for sparse selection.', 'NNP')]Stentense token : 
+As we mentioned in the previous sections, lambda values have a large effect on coefficients so now we will compute and chose a suitable one.
+TRIGRAM: 
+('As', 'we', 'mentioned')('we', 'mentioned', 'in')('mentioned', 'in', 'the')('in', 'the', 'previous')('the', 'previous', 'sections,')('previous', 'sections,', 'lambda')('sections,', 'lambda', 'values')('lambda', 'values', 'have')('values', 'have', 'a')('have', 'a', 'large')('a', 'large', 'effect')('large', 'effect', 'on')('effect', 'on', 'coefficients')('on', 'coefficients', 'so')('coefficients', 'so', 'now')('so', 'now', 'we')('now', 'we', 'will')('we', 'will', 'compute')('will', 'compute', 'and')('compute', 'and', 'chose')('and', 'chose', 'a')('chose', 'a', 'suitable')('a', 'suitable', 'one.')
+Name Entity: 
+(S
+  As/IN
+  we/PRP
+  mentioned/VBD
+  in/IN
+  the/DT
+  previous/JJ
+  sections/NNS
+  ,/,
+  lambda/NN
+  values/NNS
+  have/VBP
+  a/DT
+  large/JJ
+  effect/NN
+  on/IN
+  coefficients/NNS
+  so/RB
+  now/RB
+  we/PRP
+  will/MD
+  compute/VB
+  and/CC
+  chose/VB
+  a/DT
+  suitable/JJ
+  one/CD
+  ./.)
+Word token: 
+As
+Stemming: 
+As
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+mentioned
+Stemming: 
+mention
+Word token: 
+in
+Stemming: 
+in
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+previous
+Stemming: 
+previou
+Word token: 
+sections
+Stemming: 
+section
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+values
+Stemming: 
+valu
+Word token: 
+have
+Stemming: 
+have
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+large
+Stemming: 
+larg
+Word token: 
+effect
+Stemming: 
+effect
+Word token: 
+on
+Stemming: 
+on
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+so
+Stemming: 
+so
+Word token: 
+now
+Stemming: 
+now
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+will
+Stemming: 
+will
+Word token: 
+compute
+Stemming: 
+comput
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+chose
+Stemming: 
+chose
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+suitable
+Stemming: 
+suitabl
+Word token: 
+one
+Stemming: 
+one
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+As
+Lemmatization: 
+we
+Lemmatization: 
+mentioned
+Lemmatization: 
+in
+Lemmatization: 
+the
+Lemmatization: 
+previous
+Lemmatization: 
+section
+Lemmatization: 
+,
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+have
+Lemmatization: 
+a
+Lemmatization: 
+large
+Lemmatization: 
+effect
+Lemmatization: 
+on
+Lemmatization: 
+coefficient
+Lemmatization: 
+so
+Lemmatization: 
+now
+Lemmatization: 
+we
+Lemmatization: 
+will
+Lemmatization: 
+compute
+Lemmatization: 
+and
+Lemmatization: 
+chose
+Lemmatization: 
+a
+Lemmatization: 
+suitable
+Lemmatization: 
+one
+Lemmatization: 
+.
+Parts of speech: 
+[('As we mentioned in the previous sections, lambda values have a large effect on coefficients so now we will compute and chose a suitable one.', 'NN')]Stentense token : 
+Here we perform a cross validation and take a peek at the lambda value corresponding to the lowest prediction error before fitting the data to the model and viewing the coefficients.
+TRIGRAM: 
+('Here', 'we', 'perform')('we', 'perform', 'a')('perform', 'a', 'cross')('a', 'cross', 'validation')('cross', 'validation', 'and')('validation', 'and', 'take')('and', 'take', 'a')('take', 'a', 'peek')('a', 'peek', 'at')('peek', 'at', 'the')('at', 'the', 'lambda')('the', 'lambda', 'value')('lambda', 'value', 'corresponding')('value', 'corresponding', 'to')('corresponding', 'to', 'the')('to', 'the', 'lowest')('the', 'lowest', 'prediction')('lowest', 'prediction', 'error')('prediction', 'error', 'before')('error', 'before', 'fitting')('before', 'fitting', 'the')('fitting', 'the', 'data')('the', 'data', 'to')('data', 'to', 'the')('to', 'the', 'model')('the', 'model', 'and')('model', 'and', 'viewing')('and', 'viewing', 'the')('viewing', 'the', 'coefficients.')
+Name Entity: 
+(S
+  Here/RB
+  we/PRP
+  perform/VBP
+  a/DT
+  cross/NN
+  validation/NN
+  and/CC
+  take/VB
+  a/DT
+  peek/NN
+  at/IN
+  the/DT
+  lambda/NN
+  value/NN
+  corresponding/VBG
+  to/TO
+  the/DT
+  lowest/JJS
+  prediction/NN
+  error/NN
+  before/IN
+  fitting/VBG
+  the/DT
+  data/NN
+  to/TO
+  the/DT
+  model/NN
+  and/CC
+  viewing/VBG
+  the/DT
+  coefficients/NNS
+  ./.)
+Word token: 
+Here
+Stemming: 
+here
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+perform
+Stemming: 
+perform
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+cross
+Stemming: 
+cross
+Word token: 
+validation
+Stemming: 
+valid
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+take
+Stemming: 
+take
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+peek
+Stemming: 
+peek
+Word token: 
+at
+Stemming: 
+at
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+corresponding
+Stemming: 
+correspond
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+lowest
+Stemming: 
+lowest
+Word token: 
+prediction
+Stemming: 
+predict
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+before
+Stemming: 
+befor
+Word token: 
+fitting
+Stemming: 
+fit
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+data
+Stemming: 
+data
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+viewing
+Stemming: 
+view
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+Here
+Lemmatization: 
+we
+Lemmatization: 
+perform
+Lemmatization: 
+a
+Lemmatization: 
+cross
+Lemmatization: 
+validation
+Lemmatization: 
+and
+Lemmatization: 
+take
+Lemmatization: 
+a
+Lemmatization: 
+peek
+Lemmatization: 
+at
+Lemmatization: 
+the
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+corresponding
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+lowest
+Lemmatization: 
+prediction
+Lemmatization: 
+error
+Lemmatization: 
+before
+Lemmatization: 
+fitting
+Lemmatization: 
+the
+Lemmatization: 
+data
+Lemmatization: 
+to
+Lemmatization: 
+the
+Lemmatization: 
+model
+Lemmatization: 
+and
+Lemmatization: 
+viewing
+Lemmatization: 
+the
+Lemmatization: 
+coefficient
+Lemmatization: 
+.
+Parts of speech: 
+[('Here we perform a cross validation and take a peek at the lambda value corresponding to the lowest prediction error before fitting the data to the model and viewing the coefficients.', 'NN')]Stentense token : 
+We can see here that certain coefficients have been pushed towards zero and minimized while RM (number of rooms) has a significantly higher weight than the rest
+TRIGRAM: 
+('We', 'can', 'see')('can', 'see', 'here')('see', 'here', 'that')('here', 'that', 'certain')('that', 'certain', 'coefficients')('certain', 'coefficients', 'have')('coefficients', 'have', 'been')('have', 'been', 'pushed')('been', 'pushed', 'towards')('pushed', 'towards', 'zero')('towards', 'zero', 'and')('zero', 'and', 'minimized')('and', 'minimized', 'while')('minimized', 'while', 'RM')('while', 'RM', '(number')('RM', '(number', 'of')('(number', 'of', 'rooms)')('of', 'rooms)', 'has')('rooms)', 'has', 'a')('has', 'a', 'significantly')('a', 'significantly', 'higher')('significantly', 'higher', 'weight')('higher', 'weight', 'than')('weight', 'than', 'the')('than', 'the', 'rest')
+Name Entity: 
+(S
+  We/PRP
+  can/MD
+  see/VB
+  here/RB
+  that/DT
+  certain/JJ
+  coefficients/NNS
+  have/VBP
+  been/VBN
+  pushed/VBN
+  towards/NNS
+  zero/CD
+  and/CC
+  minimized/VBN
+  while/IN
+  (ORGANIZATION RM/NNP)
+  (/(
+  number/NN
+  of/IN
+  rooms/NNS
+  )/)
+  has/VBZ
+  a/DT
+  significantly/RB
+  higher/JJR
+  weight/NN
+  than/IN
+  the/DT
+  rest/NN)
+Word token: 
+We
+Stemming: 
+We
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+see
+Stemming: 
+see
+Word token: 
+here
+Stemming: 
+here
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+certain
+Stemming: 
+certain
+Word token: 
+coefficients
+Stemming: 
+coeffici
+Word token: 
+have
+Stemming: 
+have
+Word token: 
+been
+Stemming: 
+been
+Word token: 
+pushed
+Stemming: 
+push
+Word token: 
+towards
+Stemming: 
+toward
+Word token: 
+zero
+Stemming: 
+zero
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+minimized
+Stemming: 
+minim
+Word token: 
+while
+Stemming: 
+while
+Word token: 
+RM
+Stemming: 
+RM
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+number
+Stemming: 
+number
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+rooms
+Stemming: 
+room
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+has
+Stemming: 
+ha
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+significantly
+Stemming: 
+significantli
+Word token: 
+higher
+Stemming: 
+higher
+Word token: 
+weight
+Stemming: 
+weight
+Word token: 
+than
+Stemming: 
+than
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+rest
+Stemming: 
+rest
+Lemmatization: 
+We
+Lemmatization: 
+can
+Lemmatization: 
+see
+Lemmatization: 
+here
+Lemmatization: 
+that
+Lemmatization: 
+certain
+Lemmatization: 
+coefficient
+Lemmatization: 
+have
+Lemmatization: 
+been
+Lemmatization: 
+pushed
+Lemmatization: 
+towards
+Lemmatization: 
+zero
+Lemmatization: 
+and
+Lemmatization: 
+minimized
+Lemmatization: 
+while
+Lemmatization: 
+RM
+Lemmatization: 
+(
+Lemmatization: 
+number
+Lemmatization: 
+of
+Lemmatization: 
+room
+Lemmatization: 
+)
+Lemmatization: 
+ha
+Lemmatization: 
+a
+Lemmatization: 
+significantly
+Lemmatization: 
+higher
+Lemmatization: 
+weight
+Lemmatization: 
+than
+Lemmatization: 
+the
+Lemmatization: 
+rest
+Parts of speech: 
+[('We can see here that certain coefficients have been pushed towards zero and minimized while RM (number of rooms) has a significantly higher weight than the rest', 'JJS')]Stentense token : 
+Performing Lasso regression
+TRIGRAM: 
+('Performing', 'Lasso', 'regression')
+Name Entity: 
+(S Performing/VBG (PERSON Lasso/NNP) regression/NN)
+Word token: 
+Performing
+Stemming: 
+perform
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Lemmatization: 
+Performing
+Lemmatization: 
+Lasso
+Lemmatization: 
+regression
+Parts of speech: 
+[('Performing Lasso regression', 'NN')]Stentense token : 
+The steps will be identical to what we have done for ridge regression.
+TRIGRAM: 
+('The', 'steps', 'will')('steps', 'will', 'be')('will', 'be', 'identical')('be', 'identical', 'to')('identical', 'to', 'what')('to', 'what', 'we')('what', 'we', 'have')('we', 'have', 'done')('have', 'done', 'for')('done', 'for', 'ridge')('for', 'ridge', 'regression.')
+Name Entity: 
+(S
+  The/DT
+  steps/NNS
+  will/MD
+  be/VB
+  identical/JJ
+  to/TO
+  what/WP
+  we/PRP
+  have/VBP
+  done/VBN
+  for/IN
+  ridge/NN
+  regression/NN
+  ./.)Stentense token : 
+The value of alpha is the only change here (remember ??
+TRIGRAM: 
+('The', 'value', 'of')('value', 'of', 'alpha')('of', 'alpha', 'is')('alpha', 'is', 'the')('is', 'the', 'only')('the', 'only', 'change')('only', 'change', 'here')('change', 'here', '(remember')('here', '(remember', '??')
+Name Entity: 
+(S
+  The/DT
+  value/NN
+  of/IN
+  alpha/NN
+  is/VBZ
+  the/DT
+  only/JJ
+  change/NN
+  here/RB
+  (/(
+  remember/VB
+  ??/NN)Stentense token : 
+= 1 denotes lasso)
+TRIGRAM: 
+('=', '1', 'denotes')('1', 'denotes', 'lasso)')
+Name Entity: 
+(S =/RB 1/CD denotes/NNS lasso/VBP )/))
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+steps
+Stemming: 
+step
+Word token: 
+will
+Stemming: 
+will
+Word token: 
+be
+Stemming: 
+be
+Word token: 
+identical
+Stemming: 
+ident
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+what
+Stemming: 
+what
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+have
+Stemming: 
+have
+Word token: 
+done
+Stemming: 
+done
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+The
+Stemming: 
+the
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+is
+Stemming: 
+is
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+only
+Stemming: 
+onli
+Word token: 
+change
+Stemming: 
+chang
+Word token: 
+here
+Stemming: 
+here
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+remember
+Stemming: 
+rememb
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+?
+Stemming: 
+?
+Word token: 
+=
+Stemming: 
+=
+Word token: 
+1
+Stemming: 
+1
+Word token: 
+denotes
+Stemming: 
+denot
+Word token: 
+lasso
+Stemming: 
+lasso
+Word token: 
+)
+Stemming: 
+)
+Lemmatization: 
+The
+Lemmatization: 
+step
+Lemmatization: 
+will
+Lemmatization: 
+be
+Lemmatization: 
+identical
+Lemmatization: 
+to
+Lemmatization: 
+what
+Lemmatization: 
+we
+Lemmatization: 
+have
+Lemmatization: 
+done
+Lemmatization: 
+for
+Lemmatization: 
+ridge
+Lemmatization: 
+regression
+Lemmatization: 
+.
+Lemmatization: 
+The
+Lemmatization: 
+value
+Lemmatization: 
+of
+Lemmatization: 
+alpha
+Lemmatization: 
+is
+Lemmatization: 
+the
+Lemmatization: 
+only
+Lemmatization: 
+change
+Lemmatization: 
+here
+Lemmatization: 
+(
+Lemmatization: 
+remember
+Lemmatization: 
+?
+Lemmatization: 
+?
+Lemmatization: 
+=
+Lemmatization: 
+1
+Lemmatization: 
+denotes
+Lemmatization: 
+lasso
+Lemmatization: 
+)
+Parts of speech: 
+[('The steps will be identical to what we have done for ridge regression.', 'NNP'), ('The value of alpha is the only change here (remember ??', 'NNP'), ('= 1 denotes lasso)', 'NN')]Stentense token : 
+Performing Elastic Net regression
+TRIGRAM: 
+('Performing', 'Elastic', 'Net')('Elastic', 'Net', 'regression')
+Name Entity: 
+(S Performing/VBG (ORGANIZATION Elastic/JJ Net/JJ) regression/NN)
+Word token: 
+Performing
+Stemming: 
+perform
+Word token: 
+Elastic
+Stemming: 
+elast
+Word token: 
+Net
+Stemming: 
+net
+Word token: 
+regression
+Stemming: 
+regress
+Lemmatization: 
+Performing
+Lemmatization: 
+Elastic
+Lemmatization: 
+Net
+Lemmatization: 
+regression
+Parts of speech: 
+[('Performing Elastic Net regression', 'NN')]Stentense token : 
+Performing Elastic Net requires us to tune parameters to identify the best alpha and lambda values and for this we need to use the caret package.
+TRIGRAM: 
+('Performing', 'Elastic', 'Net')('Elastic', 'Net', 'requires')('Net', 'requires', 'us')('requires', 'us', 'to')('us', 'to', 'tune')('to', 'tune', 'parameters')('tune', 'parameters', 'to')('parameters', 'to', 'identify')('to', 'identify', 'the')('identify', 'the', 'best')('the', 'best', 'alpha')('best', 'alpha', 'and')('alpha', 'and', 'lambda')('and', 'lambda', 'values')('lambda', 'values', 'and')('values', 'and', 'for')('and', 'for', 'this')('for', 'this', 'we')('this', 'we', 'need')('we', 'need', 'to')('need', 'to', 'use')('to', 'use', 'the')('use', 'the', 'caret')('the', 'caret', 'package.')
+Name Entity: 
+(S
+  Performing/VBG
+  (ORGANIZATION Elastic/JJ Net/JJ)
+  requires/VBZ
+  us/PRP
+  to/TO
+  tune/VB
+  parameters/NNS
+  to/TO
+  identify/VB
+  the/DT
+  best/JJS
+  alpha/NN
+  and/CC
+  lambda/NN
+  values/NNS
+  and/CC
+  for/IN
+  this/DT
+  we/PRP
+  need/VBP
+  to/TO
+  use/VB
+  the/DT
+  caret/JJ
+  package/NN
+  ./.)Stentense token : 
+We will tune the model by iterating over a number of alpha and lambda pairs and we can see which pair has the lowest associated error.
+TRIGRAM: 
+('We', 'will', 'tune')('will', 'tune', 'the')('tune', 'the', 'model')('the', 'model', 'by')('model', 'by', 'iterating')('by', 'iterating', 'over')('iterating', 'over', 'a')('over', 'a', 'number')('a', 'number', 'of')('number', 'of', 'alpha')('of', 'alpha', 'and')('alpha', 'and', 'lambda')('and', 'lambda', 'pairs')('lambda', 'pairs', 'and')('pairs', 'and', 'we')('and', 'we', 'can')('we', 'can', 'see')('can', 'see', 'which')('see', 'which', 'pair')('which', 'pair', 'has')('pair', 'has', 'the')('has', 'the', 'lowest')('the', 'lowest', 'associated')('lowest', 'associated', 'error.')
+Name Entity: 
+(S
+  We/PRP
+  will/MD
+  tune/VB
+  the/DT
+  model/NN
+  by/IN
+  iterating/VBG
+  over/RP
+  a/DT
+  number/NN
+  of/IN
+  alpha/NN
+  and/CC
+  lambda/JJ
+  pairs/NNS
+  and/CC
+  we/PRP
+  can/MD
+  see/VB
+  which/WDT
+  pair/NN
+  has/VBZ
+  the/DT
+  lowest/JJS
+  associated/JJ
+  error/NN
+  ./.)
+Word token: 
+Performing
+Stemming: 
+perform
+Word token: 
+Elastic
+Stemming: 
+elast
+Word token: 
+Net
+Stemming: 
+net
+Word token: 
+requires
+Stemming: 
+requir
+Word token: 
+us
+Stemming: 
+us
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+tune
+Stemming: 
+tune
+Word token: 
+parameters
+Stemming: 
+paramet
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+identify
+Stemming: 
+identifi
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+best
+Stemming: 
+best
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+values
+Stemming: 
+valu
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+for
+Stemming: 
+for
+Word token: 
+this
+Stemming: 
+thi
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+need
+Stemming: 
+need
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+use
+Stemming: 
+use
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+caret
+Stemming: 
+caret
+Word token: 
+package
+Stemming: 
+packag
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+We
+Stemming: 
+We
+Word token: 
+will
+Stemming: 
+will
+Word token: 
+tune
+Stemming: 
+tune
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+model
+Stemming: 
+model
+Word token: 
+by
+Stemming: 
+by
+Word token: 
+iterating
+Stemming: 
+iter
+Word token: 
+over
+Stemming: 
+over
+Word token: 
+a
+Stemming: 
+a
+Word token: 
+number
+Stemming: 
+number
+Word token: 
+of
+Stemming: 
+of
+Word token: 
+alpha
+Stemming: 
+alpha
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+lambda
+Stemming: 
+lambda
+Word token: 
+pairs
+Stemming: 
+pair
+Word token: 
+and
+Stemming: 
+and
+Word token: 
+we
+Stemming: 
+we
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+see
+Stemming: 
+see
+Word token: 
+which
+Stemming: 
+which
+Word token: 
+pair
+Stemming: 
+pair
+Word token: 
+has
+Stemming: 
+ha
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+lowest
+Stemming: 
+lowest
+Word token: 
+associated
+Stemming: 
+associ
+Word token: 
+error
+Stemming: 
+error
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+Performing
+Lemmatization: 
+Elastic
+Lemmatization: 
+Net
+Lemmatization: 
+requires
+Lemmatization: 
+u
+Lemmatization: 
+to
+Lemmatization: 
+tune
+Lemmatization: 
+parameter
+Lemmatization: 
+to
+Lemmatization: 
+identify
+Lemmatization: 
+the
+Lemmatization: 
+best
+Lemmatization: 
+alpha
+Lemmatization: 
+and
+Lemmatization: 
+lambda
+Lemmatization: 
+value
+Lemmatization: 
+and
+Lemmatization: 
+for
+Lemmatization: 
+this
+Lemmatization: 
+we
+Lemmatization: 
+need
+Lemmatization: 
+to
+Lemmatization: 
+use
+Lemmatization: 
+the
+Lemmatization: 
+caret
+Lemmatization: 
+package
+Lemmatization: 
+.
+Lemmatization: 
+We
+Lemmatization: 
+will
+Lemmatization: 
+tune
+Lemmatization: 
+the
+Lemmatization: 
+model
+Lemmatization: 
+by
+Lemmatization: 
+iterating
+Lemmatization: 
+over
+Lemmatization: 
+a
+Lemmatization: 
+number
+Lemmatization: 
+of
+Lemmatization: 
+alpha
+Lemmatization: 
+and
+Lemmatization: 
+lambda
+Lemmatization: 
+pair
+Lemmatization: 
+and
+Lemmatization: 
+we
+Lemmatization: 
+can
+Lemmatization: 
+see
+Lemmatization: 
+which
+Lemmatization: 
+pair
+Lemmatization: 
+ha
+Lemmatization: 
+the
+Lemmatization: 
+lowest
+Lemmatization: 
+associated
+Lemmatization: 
+error
+Lemmatization: 
+.
+Parts of speech: 
+[('Performing Elastic Net requires us to tune parameters to identify the best alpha and lambda values and for this we need to use the caret package.', 'NNP'), ('We will tune the model by iterating over a number of alpha and lambda pairs and we can see which pair has the lowest associated error.', 'NNP')]Stentense token : 
+We can see that the R mean-squared values using all three models were very close to each other, but both did marginally perform better than ridge regression (Lasso having done best).
+TRIGRAM: 
+('We', 'can', 'see')('can', 'see', 'that')('see', 'that', 'the')('that', 'the', 'R')('the', 'R', 'mean-squared')('R', 'mean-squared', 'values')('mean-squared', 'values', 'using')('values', 'using', 'all')('using', 'all', 'three')('all', 'three', 'models')('three', 'models', 'were')('models', 'were', 'very')('were', 'very', 'close')('very', 'close', 'to')('close', 'to', 'each')('to', 'each', 'other,')('each', 'other,', 'but')('other,', 'but', 'both')('but', 'both', 'did')('both', 'did', 'marginally')('did', 'marginally', 'perform')('marginally', 'perform', 'better')('perform', 'better', 'than')('better', 'than', 'ridge')('than', 'ridge', 'regression')('ridge', 'regression', '(Lasso')('regression', '(Lasso', 'having')('(Lasso', 'having', 'done')('having', 'done', 'best).')
+Name Entity: 
+(S
+  We/PRP
+  can/MD
+  see/VB
+  that/IN
+  the/DT
+  R/NNP
+  mean/SYM
+  -/:
+  squared/VBN
+  values/NNS
+  using/VBG
+  all/DT
+  three/CD
+  models/NNS
+  were/VBD
+  very/RB
+  close/RB
+  to/TO
+  each/DT
+  other/JJ
+  ,/,
+  but/CC
+  both/DT
+  did/VBD
+  marginally/RB
+  perform/VB
+  better/JJR
+  than/IN
+  ridge/NN
+  regression/NN
+  (/(
+  Lasso/NNP
+  having/VBG
+  done/VBN
+  best/JJS
+  )./NN)Stentense token : 
+Lasso regression also showed the highest R² value.
+TRIGRAM: 
+('Lasso', 'regression', 'also')('regression', 'also', 'showed')('also', 'showed', 'the')('showed', 'the', 'highest')('the', 'highest', 'R²')('highest', 'R²', 'value.')
+Name Entity: 
+(S
+  (GPE Lasso/NNP)
+  regression/NN
+  also/RB
+  showed/VBD
+  the/DT
+  highest/JJS
+  R²/JJ
+  value/NN
+  ./.)
+Word token: 
+We
+Stemming: 
+We
+Word token: 
+can
+Stemming: 
+can
+Word token: 
+see
+Stemming: 
+see
+Word token: 
+that
+Stemming: 
+that
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+R
+Stemming: 
+R
+Word token: 
+mean-squared
+Stemming: 
+mean-squar
+Word token: 
+values
+Stemming: 
+valu
+Word token: 
+using
+Stemming: 
+use
+Word token: 
+all
+Stemming: 
+all
+Word token: 
+three
+Stemming: 
+three
+Word token: 
+models
+Stemming: 
+model
+Word token: 
+were
+Stemming: 
+were
+Word token: 
+very
+Stemming: 
+veri
+Word token: 
+close
+Stemming: 
+close
+Word token: 
+to
+Stemming: 
+to
+Word token: 
+each
+Stemming: 
+each
+Word token: 
+other
+Stemming: 
+other
+Word token: 
+,
+Stemming: 
+,
+Word token: 
+but
+Stemming: 
+but
+Word token: 
+both
+Stemming: 
+both
+Word token: 
+did
+Stemming: 
+did
+Word token: 
+marginally
+Stemming: 
+margin
+Word token: 
+perform
+Stemming: 
+perform
+Word token: 
+better
+Stemming: 
+better
+Word token: 
+than
+Stemming: 
+than
+Word token: 
+ridge
+Stemming: 
+ridg
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+(
+Stemming: 
+(
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+having
+Stemming: 
+have
+Word token: 
+done
+Stemming: 
+done
+Word token: 
+best
+Stemming: 
+best
+Word token: 
+)
+Stemming: 
+)
+Word token: 
+.
+Stemming: 
+.
+Word token: 
+Lasso
+Stemming: 
+lasso
+Word token: 
+regression
+Stemming: 
+regress
+Word token: 
+also
+Stemming: 
+also
+Word token: 
+showed
+Stemming: 
+show
+Word token: 
+the
+Stemming: 
+the
+Word token: 
+highest
+Stemming: 
+highest
+Word token: 
+R²
+Stemming: 
+R²
+Word token: 
+value
+Stemming: 
+valu
+Word token: 
+.
+Stemming: 
+.
+Lemmatization: 
+We
+Lemmatization: 
+can
+Lemmatization: 
+see
+Lemmatization: 
+that
+Lemmatization: 
+the
+Lemmatization: 
+R
+Lemmatization: 
+mean-squared
+Lemmatization: 
+value
+Lemmatization: 
+using
+Lemmatization: 
+all
+Lemmatization: 
+three
+Lemmatization: 
+model
+Lemmatization: 
+were
+Lemmatization: 
+very
+Lemmatization: 
+close
+Lemmatization: 
+to
+Lemmatization: 
+each
+Lemmatization: 
+other
+Lemmatization: 
+,
+Lemmatization: 
+but
+Lemmatization: 
+both
+Lemmatization: 
+did
+Lemmatization: 
+marginally
+Lemmatization: 
+perform
+Lemmatization: 
+better
+Lemmatization: 
+than
+Lemmatization: 
+ridge
+Lemmatization: 
+regression
+Lemmatization: 
+(
+Lemmatization: 
+Lasso
+Lemmatization: 
+having
+Lemmatization: 
+done
+Lemmatization: 
+best
+Lemmatization: 
+)
+Lemmatization: 
+.
+Lemmatization: 
+Lasso
+Lemmatization: 
+regression
+Lemmatization: 
+also
+Lemmatization: 
+showed
+Lemmatization: 
+the
+Lemmatization: 
+highest
+Lemmatization: 
+R²
+Lemmatization: 
+value
+Lemmatization: 
+.
+Parts of speech: 
+[('We can see that the R mean-squared values using all three models were very close to each other, but both did marginally perform better than ridge regression (Lasso having done best).', 'JJ'), ('Lasso regression also showed the highest R² value.', 'NNP')]

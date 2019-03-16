@@ -247,7 +247,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png)
+![png](Documentation/output_21_0.png)
 
 
 ### This is actually a very bad prediction, but the intuition here is to understand how a neural networks feeds the data and how layers are added in keras. How to add the activation function and plotting the results.

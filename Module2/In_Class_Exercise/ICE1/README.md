@@ -1,3 +1,5 @@
 - There is no wiki page as the same wiki content has been included in jupyter notebook
-
+- [My Jupyter Notebook](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE1/Source/First_Neural_Network.ipynb)
 - [Youtube demo](https://youtu.be/CVqNUAQXlOw)
+- Also the source code can be found in the form of .py file [here](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE1/Source/DeepLearning_Lesson1)
+- Datasets : [Here](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE1/Source/DeepLearning_Lesson1)

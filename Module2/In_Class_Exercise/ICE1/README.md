@@ -1,4 +1,4 @@
-- There is no wiki page as the same wiki content has been included in jupyter notebook
+- There is no wiki page as the same wiki content has been included in jupyter notebook (scroll below)
 - [My Jupyter Notebook](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE1/Source/First_Neural_Network.ipynb)
 - [Youtube demo](https://youtu.be/CVqNUAQXlOw)
 - Also the source code can be found in the form of .py file [here](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE1/Source/DeepLearning_Lesson1)
@@ -247,7 +247,7 @@ plt.show()
 ```
 
 
-![png](output_21_0.png)
+![png](Documentation/output_21_0.png)
 
 
 ### This is actually a very bad prediction, but the intuition here is to understand how a neural networks feeds the data and how layers are added in keras. How to add the activation function and plotting the results.

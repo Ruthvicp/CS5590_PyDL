@@ -15,3 +15,13 @@
 * [Lab1 - Sets, Tuples, Web Scraping, Strings](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab1)
 
 * [Lab2 - Linear Regression, SVM, Naive Bayes, KNN, K-Means Clustering, NLP](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab2)
+
+
+
+## Module 2 - Python & Deep Learning
+
+### In Class Exercise - (By RuthvicP) 
+Most of the deep learning tutorials are done through jupyter notebooks
+
+* [ICE1 - First Neural Network in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE1)
+* [ICE2 - Image Classification in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE2)

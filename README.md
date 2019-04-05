@@ -24,4 +24,4 @@
 Most of the deep learning tutorials are done through jupyter notebooks
 
 * [ICE1 - First Neural Network in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE1)
-* [ICE2 - Image Classification in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE2)
+* [ICE2 - Image Classification in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE2/Source)

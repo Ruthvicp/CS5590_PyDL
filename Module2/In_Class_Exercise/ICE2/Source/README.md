@@ -38,7 +38,7 @@ plt.show()
 ```
 
 
-![png](Documentation/output_3_0.png)
+![png](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE2/Documentation/output_3_0.png)
 
 
 
@@ -153,7 +153,7 @@ plt.legend(loc="lower left")
 
 
 
-![png](Documentation/output_8_1.png)
+![png](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE2/Documentation/output_8_1.png)
 
 
 So far we have the model was trained for 20 Epochs witha batch size of 256. The activation function used is Relu and the final layer is Softmax. In the below section we slightly modify the hyper parameters of the model - change the activation, add another dense, increase the batch size and finally evaluate the model accuracy
@@ -281,7 +281,7 @@ plt.legend(loc="lower left")
 
 
 
-![png](Documentation/output_13_1.png)
+![png](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE2/Documentation/output_13_1.png)
 
 
 
@@ -302,7 +302,7 @@ plt.show()
 ```
 
 
-![png](Documentation/output_15_0.png)
+![png](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE2/Documentation/output_15_0.png)
 
 
 
@@ -329,7 +329,7 @@ plt.hist(pred, bins=10, density=1, range=[0,9], align='mid')
 
 
 
-![png](Documentation/output_16_2.png)
+![png](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE2/Documentation/output_16_2.png)
 
 
 ### Remarks

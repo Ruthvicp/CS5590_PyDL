@@ -201,7 +201,25 @@ print("loss: %.2f%%" % (scores[0]*100))
 
     Accuracy: 72.12%
     
+## Now let's modify the model according to the ICP - add a CNN layer with below layers
 
+- Convolutional input layer, 32 feature maps with a size of 3×3 and a rectifier activation function.
+- Dropout layer at 20%.
+- Convolutional layer, 32 feature maps with a size of 3×3 and a rectifier activation function.
+- Max Pool layer with size 2×2.Convolutional layer, 64 feature maps with a size of 3×3 and a rectifier activation function.
+- Dropout layer at 20%.
+- Convolutional layer, 64 feature maps with a size of 3×3 and a rectifier activation function.
+- Max Pool layer with size 2×2.
+- Convolutional layer, 128feature maps with a size of 3×3 and a rectifier activation function.
+- Dropout layer at 20%. 
+- Convolutional layer,128 feature maps with a size of 3×3 and a rectifier activation function.
+- Max Pool layer with size 2×2.
+- Flatten layer. 
+- Dropout layer at 20%.
+- Fully connected layer with 1024units and a rectifier activation function.
+- Dropout layer at 20%.Fully connected layer with 512units and a rectifier activation function.
+- Dropoutlayer at 20%.
+- Fully connected output layer with 10 units and a softmax activation function
 
 ```python
 model = Sequential()

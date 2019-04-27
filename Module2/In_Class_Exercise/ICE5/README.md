@@ -2,7 +2,7 @@
 - [My Jupyter Notebook](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE5/Source/Sentiment_Analysis.ipynb)
 - [Youtube demo](https://youtu.be/yuPnD1qVgKw)
 - Also the source code can be found in the form of .py file [here](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE5/Source)
-- Please read the full README.md [here]()
+- Please read the full README.md [here](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE5/README.md)
 
 ## Sentiment Analysis
 ### author : ruthvicp

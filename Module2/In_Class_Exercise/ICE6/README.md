@@ -1,3 +1,8 @@
+- There is no wiki page as the same wiki content has been included in jupyter notebook (scroll below)
+- [My Jupyter Notebook](https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Module2/In_Class_Exercise/ICE6/Source/Auto_Encoders.ipynb)
+- [Youtube demo](https://youtu.be/HeCH4gVnPIY)
+- Also the source code can be found in the form of .py file [here](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE6/Source)
+
 
 ## Simple autoencoder-Reconstructing the existing image, which will contain important features of the image
 

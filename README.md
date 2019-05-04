@@ -27,3 +27,4 @@ Most of the deep learning tutorials are done through jupyter notebooks
 * [ICE2 - Image Classification in Keras](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE2/Source)
 * ICE3 - Not Avaialble
 * [ICE4 - Image Classification with CNN](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE4)
+* [ICE5 - Sentiment Analysis and Spam detection using LSTM](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module2/In_Class_Exercise/ICE5)

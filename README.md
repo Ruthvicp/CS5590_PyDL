@@ -13,11 +13,8 @@
 ### Lab Assignments (By Ruthvicp, charankottapalliCK)
 
 * [Lab1 - Sets, Tuples, Web Scraping, Strings](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab1)
-
 * [Lab2 - Linear Regression, SVM, Naive Bayes, KNN, K-Means Clustering, NLP](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Module1/Lab_Assignment/Lab2)
-
 * [Lab3 - Linear & Logistic Regression, Image Classification with CNN, Text classification with CNN & LSTM](https://github.com/Ruthvicp/CS5590_PyDL/wiki/Lab-Assignment-3)
-
 
 
 ## Module 2 - Python & Deep Learning

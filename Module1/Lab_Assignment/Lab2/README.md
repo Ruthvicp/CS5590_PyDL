@@ -76,10 +76,11 @@ To implement Metrics and plot graphs
 * h5py
 * pydub
 * scipy
+* matplotlib
 
 ## Implementation
 
 ## Contribution
 
 ## References
-* matplotlib
+

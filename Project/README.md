@@ -80,8 +80,8 @@ To implement Metrics and plot graphs
 
 ## Implementation
 The implementation is described in two notebooks. As the Notebooks size was high, we did not combine the implementation in this main report. The notebooks are described below
-1. Training your model - 
-2. Real-time demo of the wake word recognition - 
+1. Training your model - https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Project/Documentation/WakeWordDetection_training.md
+2. Real-time demo of the wake word recognition - https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Project/Documentation/trigger_word_real_time_demo.md
 
 ## Contribution
 We have togethor worked in preparing the data and processing it. Also tried different ways of training the model and its testing as well. So take equal contribution in the work

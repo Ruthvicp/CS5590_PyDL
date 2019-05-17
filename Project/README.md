@@ -1,3 +1,13 @@
+# CS5590 Python and Deep Learning - Project
+### Spring 2019, UMKC
+
+### Team Members
+- Ruthvic Punyamurtula
+- Sai Charan Kotthapalli
+
+We have implemented to a light weight wake word detection model which can be used to perform detection on low power and low computational devices like raspberry pi. We have achieved high accuracy (98%) with training data about 4000 samples of a single speaker.
+Also we have obtained an accuracy of 90% with training data of just 400 samples with the same architecture when trained on a single speaker voice. In the following sections, we explain in depth about our project.
+
 # 'Recept' - Wake word Detection
 
 We are going to construct a audio speech dataset and implement an algorithm for Wake word detection which also called as keyword detection, or wakeword detection. Trigger word detection is the technology that allows devices like Amazon Alexa, Google Home, Apple Siri, etc to wake up, turn on upon hearing a certain word.
@@ -63,6 +73,9 @@ We one hot encode the positive values with 1's and negative words and background
 The 1D convolutional step inputs 5511 timesteps of the spectrogram 10 seconds audio file in our case, outputs a 1375 step output. It extracts low-level audio features similar to how 2D convolutions extract image features. Also helps speed up the model by reducing the number of timesteps.
 
 The two GRU layers read the sequence of inputs from left to right, then ultimately uses a dense+sigmoid layer to make a prediction. Sigmoid make the range of each label between 0~1. Being 1, corresponding to the user having just said "activate".
+
+## Model Summary
+![](file:///C:/Users/ruthv/Documents/GitHub/CS5590_PyDL/raw/master/Project/Documentation/model.jpg)
 
 ## Technical Stack
 We have used the following technical specs for this project

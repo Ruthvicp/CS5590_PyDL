@@ -1,3 +1,13 @@
+# CS5590 Python and Deep Learning - Project
+### Spring 2019, UMKC
+
+### Team Members
+- Ruthvic Punyamurtula
+- Sai Charan Kotthapalli
+
+We have implemented to a light weight wake word detection model which can be used to perform detection on low power and low computational devices like raspberry pi. We have achieved high accuracy (98%) with training data about 4000 samples of a single speaker.
+Also we have obtained an accuracy of 90% with training data of just 400 samples with the same architecture when trained on a single speaker voice. In the following sections, we explain in depth about our project.
+
 # 'Recept' - Wake word Detection
 
 We are going to construct a audio speech dataset and implement an algorithm for Wake word detection which also called as keyword detection, or wakeword detection. Trigger word detection is the technology that allows devices like Amazon Alexa, Google Home, Apple Siri, etc to wake up, turn on upon hearing a certain word.
@@ -64,6 +74,9 @@ The 1D convolutional step inputs 5511 timesteps of the spectrogram 10 seconds au
 
 The two GRU layers read the sequence of inputs from left to right, then ultimately uses a dense+sigmoid layer to make a prediction. Sigmoid make the range of each label between 0~1. Being 1, corresponding to the user having just said "activate".
 
+## Model Summary
+![](file:///C:/Users/ruthv/Documents/GitHub/CS5590_PyDL/raw/master/Project/Documentation/model.jpg)
+
 ## Technical Stack
 We have used the following technical specs for this project
 
@@ -80,8 +93,8 @@ To implement Metrics and plot graphs
 
 ## Implementation
 The implementation is described in two notebooks. As the Notebooks size was high, we did not combine the implementation in this main report. The notebooks are described below
-1. Training your model - 
-2. Real-time demo of the wake word recognition - 
+1. Training your model - https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Project/Documentation/WakeWordDetection_training.md
+2. Real-time demo of the wake word recognition - https://github.com/Ruthvicp/CS5590_PyDL/blob/master/Project/Documentation/trigger_word_real_time_demo.md
 
 ## Contribution
 We have togethor worked in preparing the data and processing it. Also tried different ways of training the model and its testing as well. So take equal contribution in the work

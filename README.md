@@ -1,5 +1,10 @@
 # CS5590_PyDL
 
+## Project - Deep Learning
+
+* ['Recept' - Wake wake detection model](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Project)
+
+
 ## Module 1 - Python & Machine Learning
 
 ### In Class Exercise - (By RuthvicP)

@@ -75,7 +75,7 @@ The 1D convolutional step inputs 5511 timesteps of the spectrogram 10 seconds au
 The two GRU layers read the sequence of inputs from left to right, then ultimately uses a dense+sigmoid layer to make a prediction. Sigmoid make the range of each label between 0~1. Being 1, corresponding to the user having just said "activate".
 
 ## Model Summary
-![](https://github.com/Ruthvicp/CS5590_PyDL/raw/master/Project/Documentation/model.jpg)
+![](https://github.com/Ruthvicp/CS5590_PyDL/raw/master/Project/Documentation/model.JPG)
 
 ## Technical Stack
 We have used the following technical specs for this project

@@ -58,11 +58,7 @@ Our dataset now consists of 4000 audio samples with 2 positives and 1 negative w
 We one hot encode the positive values with 1's and negative words and background noise with 0's
 
 ## System Architecture
-<<<<<<< HEAD
-![](https://github.com/Ruthvicp/CS5590_PyDL/raw/master/Project/Documentation/architecture.jpg)
-=======
 ![](file:///C:/Users/ruthv/Documents/GitHub/CS5590_PyDL/raw/master/Project/Documentation/architecture.jpg)
->>>>>>> 24f61eade490d69ed60dc73c9a3e18efad8aa592
 
 The 1D convolutional step inputs 5511 timesteps of the spectrogram 10 seconds audio file in our case, outputs a 1375 step output. It extracts low-level audio features similar to how 2D convolutions extract image features. Also helps speed up the model by reducing the number of timesteps.
 

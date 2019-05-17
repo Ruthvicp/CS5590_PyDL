@@ -1,6 +1,6 @@
 # CS5590_PyDL
 
-## Project - Deep Learning
+## Project - Deep Learning - (By Ruthvicp, charankottapalliCK)
 
 * ['Recept' - Wake wake detection model](https://github.com/Ruthvicp/CS5590_PyDL/tree/master/Project)
 
